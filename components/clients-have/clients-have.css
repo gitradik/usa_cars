@@ -53,6 +53,11 @@
   }
 }
 @media only screen and (max-width: 575px) {
+  .clients-have .clients-have-card {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .clients-have .clients-have-card p {
     min-height: auto;
   }

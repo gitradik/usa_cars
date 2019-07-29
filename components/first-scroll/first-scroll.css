@@ -116,10 +116,11 @@
   outline: none;
   cursor: pointer;
   padding: 12px 30px;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 600;
   border-radius: 2px;
   border: 1px solid #ffa100;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
   transition: 0.2s;
   color: white;
   background-color: #ffa100;

@@ -21,15 +21,16 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/node_modules/magnific-popup/dist/magnific-popup.css">
 
     <!-- MY STYLES -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/reset.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/sub-style.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/main.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/contact-form-modal/contact-form-modal.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/navbar/navbar.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/first-scroll/first-scroll.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/cost-calc/cost-calc.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/about/about.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/clients-have/clients-have.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/reset.css?v=1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/sub-style.css?v=1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/main.css?v=1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/contact-form-modal/contact-form-modal.css?v=1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/navbar/navbar.css?v=1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/first-scroll/first-scroll.css?v=1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/cost-calc/cost-calc.css?v=1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/about/about.css?v=1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/clients-have/clients-have.css?v=1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/comparison/comparison.css?v=1">
 
 
 </head>

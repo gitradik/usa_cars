@@ -6,12 +6,12 @@
 <script src="<?php echo get_template_directory_uri(); ?>/node_modules/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/node_modules/inputmask/dist/jquery.inputmask.bundle.js"></script>
 
-<script src="<?php echo get_template_directory_uri(); ?>/js/main.js?v=1.1"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/inp-mask.js?v=1.1"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/components/contact-form-modal/contact-form-modal.js?v=1.1"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/components/first-scroll/first-scroll.js?v=1.1"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/components/cost-calc/cost-calc.js?v=1.1"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/components/about/about.js?v=1.1"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/main.js?v=1.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/inp-mask.js?v=1.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/components/contact-form-modal/contact-form-modal.js?v=1.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/components/first-scroll/first-scroll.js?v=1.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/components/cost-calc/cost-calc.js?v=1.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/components/about/about.js?v=1.2"></script>
 
 
 </body>

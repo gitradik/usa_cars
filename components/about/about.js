@@ -5,7 +5,7 @@ $(".about-slider").slick({
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
     prevArrow: '<button class="arrow-slider prev-arrow"><i class="fas fa-chevron-left"></i></button>',
     nextArrow: '<button class="arrow-slider next-arrow"><i class="fas fa-chevron-right"></i></button>',
     responsive: [
@@ -55,5 +55,23 @@ $('.image-popup-no-margins').magnificPopup({
     zoom: {
         enabled: true,
         duration: 300 // don't foget to change the duration also in CSS
+    }
+});
+
+$('.popup-gallery').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    tLoading: 'Loading...',
+    mainClass: 'mfp-img-mobile mfp-no-margins mfp-with-zoom',
+    gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+    },
+    image: {
+        tError: '',
+        titleSrc: function(item) {
+            return item.el.attr('title');
+        }
     }
 });

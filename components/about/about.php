@@ -12,19 +12,26 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="about-slider ">
+                <div class="about-slider popup-gallery">
                     <div>
                         <a href="<?php echo get_template_directory_uri(); ?>/images/about/full_2asCPAQj.jpg"
                            title=""
-                           class="photo-gallery-slider-item image-popup-no-margins">
+                           class="photo-gallery-slider-item ">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/about/full_2asCPAQj.jpg">
                         </a>
                     </div>
                     <div>
                         <a href="<?php echo get_template_directory_uri(); ?>/images/about/Leeds-Lanes-Launch-Hall.jpg"
                            title=""
-                           class="photo-gallery-slider-item image-popup-no-margins">
+                           class="photo-gallery-slider-item ">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/about/Leeds-Lanes-Launch-Hall.jpg">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="<?php echo get_template_directory_uri(); ?>/images/about/iaa_vehicle_auctions_lot.jpg"
+                           title=""
+                           class="photo-gallery-slider-item ">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/about/iaa_vehicle_auctions_lot.jpg">
                         </a>
                     </div>
                 </div>
