@@ -1,0 +1,141 @@
+.first-scroll {
+  min-height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.first-scroll .btn-down {
+  position: absolute;
+  z-index: 3;
+  bottom: 10px;
+  left: 50%;
+  animation: move 1s infinite alternate;
+  animation-delay: 0s;
+}
+.first-scroll .btn-down img {
+  height: auto;
+  width: 50px;
+}
+@keyframes move {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-20px);
+  }
+}
+.first-scroll .bg {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.first-scroll .bg-img {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url("../../images/back-first-scroll.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 1s;
+  transform: scale(1);
+}
+.first-scroll .bg-img-animate {
+  transition: all 3s;
+  transform: scale(1.5);
+}
+.first-scroll .t {
+  max-width: 900px;
+  background-color: rgba(255, 161, 0, 0.3);
+  padding: 30px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+.first-scroll .t:before {
+  position: absolute;
+  content: "";
+  top: -2px;
+  right: -2px;
+  left: -2px;
+  bottom: -2px;
+  box-shadow: 0 0 0 8px rgba(255, 161, 0, 0.2);
+}
+.first-scroll .t:after {
+  position: absolute;
+  content: "";
+  top: -12px;
+  right: -12px;
+  left: -12px;
+  bottom: -12px;
+  box-shadow: 0 0 0 8px rgba(255, 161, 0, 0.2);
+}
+.first-scroll .t h1 {
+  color: white;
+  font-size: 52px;
+}
+.first-scroll .t h2 {
+  color: white;
+  font-size: 32px;
+}
+.first-scroll .t h3 {
+  color: white;
+}
+.first-scroll .t h4 {
+  color: white;
+}
+.first-scroll .t h5 {
+  color: white;
+}
+.first-scroll .fs-order {
+  position: relative;
+  z-index: 50;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.first-scroll .fs-order h4 {
+  color: #ffa100;
+  font-size: 40px;
+  font-weight: 900;
+}
+.first-scroll .fs-order button {
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: 1px solid #ffa100;
+  transition: 0.2s;
+  color: white;
+  background-color: #ffa100;
+}
+.first-scroll .fs-order button:hover {
+  transition: 0.2s;
+  color: #ffa100;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (min-width: 1200px) {
+  .first-scroll .t {
+    margin-bottom: 120px;
+  }
+  .first-scroll .fs-order {
+    margin-bottom: 30px;
+  }
+  .first-scroll .fs-order h4 {
+    margin-right: 30px;
+  }
+}
+
+/*# sourceMappingURL=first-scroll.css.map */
