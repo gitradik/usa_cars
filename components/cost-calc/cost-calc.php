@@ -18,13 +18,15 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/images/right.svg" alt="right">
                 </div>
             </div>
-            <div class="col-lg-6 py-3 d-flex justify-content-center align-items-center">
+            <div class="col-lg-6 py-3 d-flex justify-content-center align-items-center cost-col">
+
                 <form style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/CFRAutoDirect.png');
-                    background-position: center; background-size: cover; background-repeat: no-repeat">
+                    background-position: center; background-size: cover; background-repeat: no-repeat"> <!--TODO drop downs menu php with js-->
+
                     <input type="hidden" name="location" value="Второй скролл => Вы в поиске хорошего автомобиля по выгодной цене?">
                     <div class="input-box p-0">
                         <div class="input-box ml-0 pl-0">
-                            <p>Бюджет <span>от</span></p>
+                            <p style="min-width: 79px">Бюджет <span>от</span></p>
                             <input type="number" value="0">
                             <p>$</p>
                         </div>
@@ -51,7 +53,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="input-box mb-3">
+                    <div class="input-box mb-3 cost-input-box">
                         <div class="input-box">
                             <p>Модель</p>
                             <div class="dropdown">

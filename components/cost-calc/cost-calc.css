@@ -5,8 +5,12 @@
   width: 100%;
   text-align: center;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .cost-calc form input {
+  display: block;
   text-align: center;
   outline: none;
   max-width: 400px;
@@ -27,6 +31,7 @@
   border-color: #ffa100;
 }
 .cost-calc form input[type=submit] {
+  display: block;
   outline: none;
   max-width: 256px;
   margin: 20px auto;
@@ -103,6 +108,24 @@
   }
   .cost-calc .dropdown .dropdown-toggle {
     font-size: 14px;
+  }
+  .cost-calc form {
+    padding-top: 70px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .cost-calc .cost-col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .cost-calc .cost-input-box {
+    flex-direction: column;
+    padding: 0 !important;
+  }
+  .cost-calc .cost-input-box .input-box {
+    margin-bottom: 1rem;
   }
 }
 
