@@ -6,6 +6,8 @@
   position: relative;
 }
 .first-scroll .btn-down {
+  cursor: pointer;
+  outline: none;
   position: absolute;
   z-index: 3;
   bottom: 10px;
@@ -54,6 +56,7 @@
   transform: scale(1.5);
 }
 .first-scroll .t {
+  margin-bottom: 60px;
   max-width: 900px;
   background-color: rgba(255, 161, 0, 0.3);
   padding: 30px;
@@ -80,11 +83,9 @@
 }
 .first-scroll .t h1 {
   color: white;
-  font-size: 52px;
 }
 .first-scroll .t h2 {
   color: white;
-  font-size: 32px;
 }
 .first-scroll .t h3 {
   color: white;
@@ -111,6 +112,8 @@
   font-weight: 900;
 }
 .first-scroll .fs-order button {
+  outline: none;
+  cursor: pointer;
   padding: 12px 30px;
   font-size: 18px;
   font-weight: 700;
@@ -135,6 +138,15 @@
   }
   .first-scroll .fs-order h4 {
     margin-right: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .first-scroll .fs-order {
+    flex-direction: column;
+    padding-bottom: 120px;
+  }
+  .first-scroll .fs-order h4 {
+    font-size: 24px;
   }
 }
 

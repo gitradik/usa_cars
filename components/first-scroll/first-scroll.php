@@ -12,12 +12,24 @@
             <div class="col-md-12">
                 <div class="fs-order" data-aos="fade-up" data-aos-duration="1000">
                     <h4>Подберем автомобиль под Ваш Бюджет</h4>
-                    <button>Получить<br> консультацию</button>
+                    <button
+                            data-toggle="modal"
+                            data-target="#contactFormModal"
+                            onclick="onClickContactFormModal(
+                           'Получить консультацию',
+                           'contactFormModalTitle',
+                           'Первый скролл => Получить консультацию',
+                           'contactFormModalLocationId'
+                       )"
+                    >
+                        Получить<br> консультацию
+                    </button>
                 </div>
             </div>
         </div>
     </div>
-    <a href="" class="btn-down">
+    <a href=""
+       class="btn-down" >
         <img src="<?php echo get_template_directory_uri(); ?>/images/thin-arrowheads-pointing-down.png" alt="down">
     </a>
 </div>

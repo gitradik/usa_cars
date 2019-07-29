@@ -1,0 +1,55 @@
+.contact-form-modal .modal-dialog {
+  max-width: 350px;
+}
+.contact-form-modal .modal-dialog .modal-content {
+  border-radius: 0;
+}
+.contact-form-modal .modal-dialog .modal-content .modal-header {
+  border-bottom: 0;
+}
+.contact-form-modal .modal-dialog .modal-content .modal-header .close span {
+  font-size: 28px;
+}
+.contact-form-modal .modal-dialog .modal-content .modal-body form {
+  text-align: center;
+}
+.contact-form-modal .modal-dialog .modal-content .modal-body form input {
+  outline: none;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 15px 5px;
+  transition: 0.2s;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.contact-form-modal .modal-dialog .modal-content .modal-body form input::placeholder {
+  font-size: 18px;
+  font-weight: 500;
+}
+.contact-form-modal .modal-dialog .modal-content .modal-body form input:focus {
+  transition: 0.2s;
+  border-color: #ffa100;
+}
+.contact-form-modal .modal-dialog .modal-content .modal-body form input[type=submit] {
+  outline: none;
+  max-width: 256px;
+  margin: 20px auto;
+  cursor: pointer;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: 1px solid #ffa100;
+  transition: 0.2s;
+  color: white;
+  background-color: #ffa100;
+}
+.contact-form-modal .modal-dialog .modal-content .modal-body form input[type=submit]:hover {
+  transition: 0.2s;
+  color: #ffa100;
+  background-color: white;
+}
+
+/*# sourceMappingURL=contact-form-modal.css.map */

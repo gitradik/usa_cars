@@ -16,7 +16,18 @@
                 <a class="nav-link" href="#">Контакты</a>
             </li>
             <li class="nav-item nav-item-order">
-                <a class="nav-link" href="#">Заказать звонок</a>
+                <a class="nav-link" href="#"
+                   data-toggle="modal"
+                   data-target="#contactFormModal"
+                   onclick="onClickContactFormModal(
+                       'Заказать звонок',
+                       'contactFormModalTitle',
+                       'Шапка => Заказать звонок',
+                       'contactFormModalLocationId'
+                   )"
+                >
+                    Заказать звонок
+                </a>
             </li>
         </ul>
     </div>

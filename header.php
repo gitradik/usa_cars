@@ -7,8 +7,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="msapplication-TileColor" content="#4c238b">
-    <meta name="theme-color" content="#4c238b">
-    <meta name="description" CONTENT="<?php bloginfo('description')?>">
+    <meta name="theme-color" content="#ffa100">
+    <meta name="description" content="<?php bloginfo('description')?>">
 
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png" type="image/x-icon">
 
@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/reset.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/sub-style.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/main.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/contact-form-modal/contact-form-modal.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/navbar/navbar.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/first-scroll/first-scroll.css">
 
