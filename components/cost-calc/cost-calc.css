@@ -1,5 +1,6 @@
 .cost-calc {
   padding: 30px 0;
+  background-color: #ffa100;
 }
 .cost-calc form {
   width: 100%;
@@ -83,10 +84,13 @@
 }
 .cost-calc .cost-calc-text .t h2 {
   text-decoration: underline;
+  color: white;
+  font-weight: 900;
 }
 .cost-calc .cost-calc-text p {
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 500;
+  color: white;
 }
 .cost-calc .dropdown .dropdown-toggle {
   background-color: white;

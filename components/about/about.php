@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="t">
-                    <div class="h2">О нас</div>
+                    <h2>О нас</h2>
                 </div>
             </div>
             <div class="col-md-6 d-flex align-items-center">

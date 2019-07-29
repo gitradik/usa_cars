@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/first-scroll/first-scroll.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/cost-calc/cost-calc.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/about/about.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/clients-have/clients-have.css">
 
 
 </head>
