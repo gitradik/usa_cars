@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 .first-scroll .btn-down {
   cursor: pointer;
@@ -138,6 +139,15 @@
   }
   .first-scroll .fs-order h4 {
     margin-right: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .first-scroll .btn-down {
+    z-index: 55;
+  }
+  .first-scroll .btn-down img {
+    width: 100%;
+    max-width: 30px;
   }
 }
 @media only screen and (max-width: 767px) {

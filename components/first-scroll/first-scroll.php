@@ -28,8 +28,8 @@
             </div>
         </div>
     </div>
-    <a href=""
-       class="btn-down" >
+    <a href="#costCalcId"
+       class="btn-down smooth-anchor" >
         <img src="<?php echo get_template_directory_uri(); ?>/images/thin-arrowheads-pointing-down.png" alt="down">
     </a>
 </div>

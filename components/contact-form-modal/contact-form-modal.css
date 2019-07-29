@@ -14,6 +14,7 @@
   text-align: center;
 }
 .contact-form-modal .modal-dialog .modal-content .modal-body form input {
+  text-align: center;
   outline: none;
   display: block;
   width: 100%;
@@ -50,6 +51,12 @@
   transition: 0.2s;
   color: #ffa100;
   background-color: white;
+}
+
+@media only screen and (max-width: 991px) {
+  .contact-form-modal .modal-dialog .modal-content .modal-header h5 {
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=contact-form-modal.css.map */

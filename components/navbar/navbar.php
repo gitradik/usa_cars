@@ -7,13 +7,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Подбор авто</a>
+                <a class="nav-link smooth-anchor" href="#costCalcId">Подбор авто</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Машины</a>
+                <a class="nav-link smooth-anchor" href="#">Машины</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Контакты</a>
+                <a class="nav-link smooth-anchor" href="#">Контакты</a>
             </li>
             <li class="nav-item nav-item-order">
                 <a class="nav-link" href="#"

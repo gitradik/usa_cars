@@ -31,6 +31,17 @@ body {
   text-align: center;
 }
 
+@media only screen and (max-width: 991px) {
+  form input {
+    font-size: 14px !important;
+  }
+  form input::placeholder {
+    font-size: 14px !important;
+  }
+  form .input-box p {
+    font-size: 14px !important;
+  }
+}
 @media only screen and (max-width: 767px) {
   .usa-cars-page .t h1 {
     font-size: 38px;

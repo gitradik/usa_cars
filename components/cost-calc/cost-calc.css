@@ -1,3 +1,109 @@
-
+.cost-calc {
+  padding: 30px 0;
+}
+.cost-calc form {
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+.cost-calc form input {
+  text-align: center;
+  outline: none;
+  max-width: 400px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 15px 5px;
+  transition: 0.2s;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.cost-calc form input::placeholder {
+  font-size: 18px;
+  font-weight: 500;
+}
+.cost-calc form input:focus {
+  transition: 0.2s;
+  border-color: #ffa100;
+}
+.cost-calc form input[type=submit] {
+  outline: none;
+  max-width: 256px;
+  margin: 20px auto;
+  cursor: pointer;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: 1px solid #ffa100;
+  transition: 0.2s;
+  color: white;
+  background-color: #ffa100;
+}
+.cost-calc form input[type=submit]:hover {
+  transition: 0.2s;
+  color: #ffa100;
+  background-color: transparent;
+}
+.cost-calc form .input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+.cost-calc form .input-box input {
+  max-width: 100px;
+}
+.cost-calc form .input-box p {
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  background-color: #ffa100;
+  padding: 3px;
+  margin: 0;
+}
+.cost-calc form .input-box p span {
+  font-weight: 700;
+}
+.cost-calc .cost-calc-text {
+  position: relative;
+}
+.cost-calc .cost-calc-text img {
+  position: absolute;
+  height: auto;
+  max-width: 60px;
+  right: 0;
+  transform: rotateZ(180deg);
+}
+.cost-calc .cost-calc-text .t h2 {
+  text-decoration: underline;
+}
+.cost-calc .cost-calc-text p {
+  font-size: 22px;
+  font-weight: 400;
+}
+.cost-calc .dropdown .dropdown-toggle {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  min-width: 120px;
+  max-width: 120px;
+}
+@media only screen and (max-width: 991px) {
+  .cost-calc .cost-calc-text p {
+    font-size: 18px;
+  }
+  .cost-calc .cost-calc-text img {
+    display: none;
+  }
+  .cost-calc .cost-calc-text .t h2 {
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
+  .cost-calc .dropdown .dropdown-toggle {
+    font-size: 14px;
+  }
+}
 
 /*# sourceMappingURL=cost-calc.css.map */
