@@ -8,6 +8,7 @@
         <?php require_once get_template_directory() . '/components/cost-calc/cost-calc.php'; ?>
         <?php require_once get_template_directory() . '/components/about/about.php'; ?>
         <?php require_once get_template_directory() . '/components/clients-have/clients-have.php'; ?>
+        <?php require_once get_template_directory() . '/components/comparison/comparison.php'; ?>
 
     </div>
 
