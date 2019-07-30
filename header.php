@@ -21,17 +21,21 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/node_modules/magnific-popup/dist/magnific-popup.css">
 
     <!-- MY STYLES -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/reset.css?v=1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/sub-style.css?v=1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/main.css?v=1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/contact-form-modal/contact-form-modal.css?v=1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/navbar/navbar.css?v=1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/first-scroll/first-scroll.css?v=1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/cost-calc/cost-calc.css?v=1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/about/about.css?v=1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/clients-have/clients-have.css?v=1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/comparison/comparison.css?v=1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/open-form/open-form.css?v=1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/reset.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/sub-style.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/main.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/contact-form-modal/contact-form-modal.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/navbar/navbar.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/first-scroll/first-scroll.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/cost-calc/cost-calc.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/about/about.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/clients-have/clients-have.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/comparison/comparison.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/open-form/open-form.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/work/work.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/partners/partners.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/certificate/certificate.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/footer/footer.css?v=1.1">
 
 
 </head>

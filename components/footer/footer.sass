@@ -1,0 +1,107 @@
+@import "../../style/data"
+
+footer
+  padding: 30px 0
+  background-color: #292929
+
+  .mapouter
+    min-width: 100%
+    max-width: 100%
+
+    .gmap_canvas
+      min-width: 100%
+      max-width: 100%
+
+  .t
+    color: white
+
+    h4
+      font-weight: 900
+
+    a
+      display: block
+      color: white
+      font-size: 18px
+      font-weight: 500
+      transition: .2s
+      text-decoration: underline
+
+      i
+        margin-right: 5px
+        font-size: 19px
+
+      &:hover
+        transition: .2s
+        text-decoration: none
+
+  .ft
+    padding-top: 20px
+
+    a
+      margin-right: 5px
+
+      i
+        transition: .2s
+        font-size: 32px
+
+    &:hover
+
+      i
+        transition: .2s
+        color: rgba(255, 255, 255, 0.81)
+
+  form
+    position: relative
+    z-index: 51
+    padding: 20px
+    width: 100%
+    text-align: center
+
+    .t
+      padding-bottom: 20px
+
+      h4
+        color: white
+
+    input
+      text-align: center
+      outline: none
+      display: block
+      max-width: 360px
+      margin: 0 auto
+      width: 100%
+      font-size: 18px
+      font-weight: 700
+      margin-bottom: 10px
+      padding: 15px 5px
+      transition: .2s
+      border: 1px solid rgba(0,0,0,.2)
+
+      &::placeholder
+        font-size: 18px
+        font-weight: 500
+
+      &:focus
+        transition: .2s
+        border-color: $orange
+
+    input[type=submit]
+      outline: none
+      max-width: 256px
+      margin: 20px auto
+      cursor: pointer
+      padding: 12px 30px
+      font-size: 18px
+      font-weight: 700
+      border-radius: 2px
+      border: 1px solid $orange
+      transition: .2s
+      color: white
+      background-color: $orange
+
+      &:hover
+        transition: .2s
+        color: $orange
+        background-color: transparent
+
+@import "footer-media"

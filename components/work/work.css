@@ -1,0 +1,43 @@
+.work {
+  padding: 30px 0;
+}
+.work .work-card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  min-height: 320px;
+}
+.work .work-card img {
+  height: auto;
+  max-width: 100%;
+}
+.work .work-card p {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.work .t button {
+  outline: none;
+  max-width: 256px;
+  margin: 20px auto;
+  cursor: pointer;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: 1px solid #ffa100;
+  transition: 0.2s;
+  color: white;
+  background-color: #ffa100;
+}
+.work .t button:hover {
+  transition: 0.2s;
+  color: #ffa100;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=work.css.map */

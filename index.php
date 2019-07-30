@@ -10,6 +10,10 @@
         <?php require_once get_template_directory() . '/components/clients-have/clients-have.php'; ?>
         <?php require_once get_template_directory() . '/components/comparison/comparison.php'; ?>
         <?php require_once get_template_directory() . '/components/open-form/open-form.php'; ?>
+        <?php require_once get_template_directory() . '/components/work/work.php'; ?>
+        <?php require_once get_template_directory() . '/components/partners/partners.php'; ?>
+        <?php require_once get_template_directory() . '/components/certificate/certificate.php'; ?>
+        <?php require_once get_template_directory() . '/components/footer/footer.php'; ?>
 
     </div>
 

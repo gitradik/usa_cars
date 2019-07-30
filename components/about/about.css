@@ -74,17 +74,27 @@
   left: 50%;
   transform: translateX(-50%);
 }
+.about-slider .slick-dots li, .about-logo-slider .slick-dots li, .open-form-logo-slider .slick-dots li {
+  width: 40px;
+}
+.about-slider .slick-dots li button, .about-logo-slider .slick-dots li button, .open-form-logo-slider .slick-dots li button {
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .about-slider .slick-dots li button:hover, .about-logo-slider .slick-dots li button:hover, .open-form-logo-slider .slick-dots li button:hover {
   transition: 0.1s;
 }
 .about-slider .slick-dots li button:before, .about-logo-slider .slick-dots li button:before, .open-form-logo-slider .slick-dots li button:before {
   content: "";
-  border-radius: 100%;
-  height: 15px;
-  width: 15px;
-  transition: 0.1s;
+  width: 40px;
+  height: 10px;
+  transition: all 0.3s linear;
+  border: 2px solid #bababa;
+}
+.about-slider .slick-dots .slick-active button:before, .about-logo-slider .slick-dots .slick-active button:before, .open-form-logo-slider .slick-dots .slick-active button:before {
+  border-color: #ffa100;
   background-color: #ffa100;
-  border: 2px solid white;
 }
 
 .about-logo-slider .slick-list .slick-slide .photo-gallery-slider-item img {
