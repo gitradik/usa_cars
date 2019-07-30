@@ -11,7 +11,7 @@
     <meta name="description" content="<?php bloginfo('description')?>">
 
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png" type="image/x-icon">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
     <!-- NODE_MODULES -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/node_modules/slick-carousel/slick/slick.css">
@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/about/about.css?v=1">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/clients-have/clients-have.css?v=1">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/comparison/comparison.css?v=1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/open-form/open-form.css?v=1">
 
 
 </head>

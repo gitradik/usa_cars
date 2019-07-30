@@ -16,21 +16,21 @@
                     <div>
                         <a href="<?php echo get_template_directory_uri(); ?>/images/about/full_2asCPAQj.jpg"
                            title=""
-                           class="photo-gallery-slider-item ">
+                           class="photo-gallery-slider-item logo-item">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/about/full_2asCPAQj.jpg">
                         </a>
                     </div>
                     <div>
                         <a href="<?php echo get_template_directory_uri(); ?>/images/about/Leeds-Lanes-Launch-Hall.jpg"
                            title=""
-                           class="photo-gallery-slider-item ">
+                           class="photo-gallery-slider-item logo-item">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/about/Leeds-Lanes-Launch-Hall.jpg">
                         </a>
                     </div>
                     <div>
                         <a href="<?php echo get_template_directory_uri(); ?>/images/about/iaa_vehicle_auctions_lot.jpg"
                            title=""
-                           class="photo-gallery-slider-item ">
+                           class="photo-gallery-slider-item logo-item">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/about/iaa_vehicle_auctions_lot.jpg">
                         </a>
                     </div>

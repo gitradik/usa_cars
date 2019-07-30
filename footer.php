@@ -12,6 +12,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/components/first-scroll/first-scroll.js?v=1.2"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/components/cost-calc/cost-calc.js?v=1.2"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/components/about/about.js?v=1.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/components/open-form/open-form.js?v=1.2"></script>
 
 
 </body>

@@ -9,6 +9,7 @@
         <?php require_once get_template_directory() . '/components/about/about.php'; ?>
         <?php require_once get_template_directory() . '/components/clients-have/clients-have.php'; ?>
         <?php require_once get_template_directory() . '/components/comparison/comparison.php'; ?>
+        <?php require_once get_template_directory() . '/components/open-form/open-form.php'; ?>
 
     </div>
 
