@@ -1,0 +1,73 @@
+.map {
+  padding: 30px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.map .t {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.map .t h2 {
+  color: white;
+}
+.map .t p {
+  color: white;
+  max-width: 750px;
+  margin: 20px auto;
+  font-size: 18px;
+  font-weight: 700;
+}
+.map .map-map {
+  position: relative;
+  z-index: 50;
+}
+.map .map-map img {
+  height: auto;
+  max-width: 100%;
+}
+.map .map-map .sietl, .map .map-map .los-angeles, .map .map-map .chicago, .map .map-map .new-jercie, .map .map-map .savana, .map .map-map .huston, .map .map-map .mayami {
+  position: absolute;
+  text-align: center;
+}
+.map .map-map .sietl img, .map .map-map .los-angeles img, .map .map-map .chicago img, .map .map-map .new-jercie img, .map .map-map .savana img, .map .map-map .huston img, .map .map-map .mayami img {
+  height: 40px;
+  width: 40px;
+}
+.map .map-map .sietl p, .map .map-map .los-angeles p, .map .map-map .chicago p, .map .map-map .new-jercie p, .map .map-map .savana p, .map .map-map .huston p, .map .map-map .mayami p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 3px;
+  font-weight: 700;
+}
+.map .map-map .sietl {
+  top: 1%;
+  left: 1.5%;
+}
+.map .map-map .los-angeles {
+  top: 50%;
+  left: 0;
+}
+.map .map-map .chicago {
+  top: 31%;
+  left: 60%;
+}
+.map .map-map .new-jercie {
+  top: 27%;
+  right: 4%;
+}
+.map .map-map .savana {
+  top: 66%;
+  right: 15%;
+}
+.map .map-map .huston {
+  bottom: 8%;
+  left: 45%;
+}
+.map .map-map .mayami {
+  bottom: 0;
+  right: 13%;
+}
+
+/*# sourceMappingURL=map.css.map */

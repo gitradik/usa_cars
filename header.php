@@ -33,6 +33,8 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/comparison/comparison.css?v=1.1">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/open-form/open-form.css?v=1.1">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/work/work.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/map/map.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/open-form-second/open-form-second.css?v=1.1">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/partners/partners.css?v=1.1">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/certificate/certificate.css?v=1.1">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/footer/footer.css?v=1.1">

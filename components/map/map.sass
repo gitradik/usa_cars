@@ -1,0 +1,77 @@
+@import "../../style/data"
+
+.map
+  padding: 30px 0
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  position: relative
+
+  .bg
+
+
+  .t
+    text-align: center
+    margin-bottom: 50px
+
+    h2
+      color: white
+
+    p
+      color: white
+      max-width: 750px
+      margin: 20px auto
+      font-size: 18px
+      font-weight: 700
+
+  .map-map
+    position: relative
+    z-index: 50
+
+    img
+      height: auto
+      max-width: 100%
+
+    .sietl, .los-angeles, .chicago, .new-jercie, .savana, .huston, .mayami
+      position: absolute
+      text-align: center
+
+      img
+        height: 40px
+        width: 40px
+
+      p
+        color: white
+        background-color: rgba(0,0,0,.4)
+        padding: 3px
+        font-weight: 700
+
+    .sietl
+      top: 1%
+      left: 1.5%
+
+    .los-angeles
+      top: 50%
+      left: 0
+
+    .chicago
+      top: 31%
+      left: 60%
+
+    .new-jercie
+      top: 27%
+      right: 4%
+
+    .savana
+      top: 66%
+      right: 15%
+
+    .huston
+      bottom: 8%
+      left: 45%
+
+    .mayami
+      bottom: 0
+      right: 13%
+
+@import "map-media"

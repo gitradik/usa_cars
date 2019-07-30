@@ -1,4 +1,4 @@
-.open-form {
+.open-form-second {
   padding: 30px 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6,42 +6,55 @@
   position: relative;
   overflow: hidden;
 }
-.open-form .t h2 {
-  color: white;
+.open-form-second .t {
+  text-align: center;
 }
-.open-form .t p {
-  font-size: 20px;
+.open-form-second .t h2 {
+  color: black;
+}
+.open-form-second .t p {
+  font-style: italic;
+  margin: 5px auto;
+  font-size: 23px;
   font-weight: 500;
-  color: white;
-  background-color: rgba(255, 161, 0, 0.85);
+  color: black;
   padding: 15px;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+  max-width: 400px;
 }
-.open-form .t .open-form-logo-slider {
+.open-form-second .t .open-form-logo-slider {
   background-color: white;
 }
-.open-form .t .open-form-logo-slider .slick-slide .logo-item {
+.open-form-second .t .open-form-logo-slider .slick-slide .logo-item {
   box-shadow: none;
   border: none;
 }
-.open-form form {
+.open-form-second .ops-t h3 {
+  display: inline-block;
+  padding: 20px;
+  font-size: 60px;
+  font-weight: 900;
+  color: white;
+  background-color: #ff2f2f;
+  text-decoration: underline;
+}
+.open-form-second form {
   position: relative;
   z-index: 51;
   padding: 20px;
   width: 100%;
   text-align: center;
 }
-.open-form form .t {
+.open-form-second form .t {
   padding-bottom: 20px;
 }
-.open-form form .t h4 {
+.open-form-second form .t h4 {
   color: white;
 }
-.open-form form input {
+.open-form-second form input {
   text-align: center;
   outline: none;
   display: block;
-  max-width: 460px;
+  max-width: 400px;
   margin: 0 auto;
   width: 100%;
   font-size: 18px;
@@ -51,17 +64,17 @@
   transition: 0.2s;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
-.open-form form input::placeholder {
+.open-form-second form input::placeholder {
   font-size: 18px;
   font-weight: 500;
 }
-.open-form form input:focus {
+.open-form-second form input:focus {
   transition: 0.2s;
   border-color: #ffa100;
 }
-.open-form form input[type=submit] {
+.open-form-second form input[type=submit] {
   outline: none;
-  max-width: 256px;
+  max-width: 400px;
   margin: 20px auto;
   cursor: pointer;
   padding: 12px 30px;
@@ -73,10 +86,10 @@
   color: white;
   background-color: #ffa100;
 }
-.open-form form input[type=submit]:hover {
+.open-form-second form input[type=submit]:hover {
   transition: 0.2s;
   color: #ffa100;
   background-color: transparent;
 }
 
-/*# sourceMappingURL=open-form-second.cssond.css.map */
+/*# sourceMappingURL=open-form-second.css.map */
