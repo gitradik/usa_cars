@@ -51,6 +51,7 @@ function setModels(index) {
     const dropdowns = [...document.getElementsByClassName('costCalcDropdownMenu')];
     const dropdownBtns = [...document.getElementsByClassName('costCalsDropdownBtn')];
     dropdowns[idexes.MODELS].innerHTML = '';
+    dropdowns[idexes.YEARS].innerHTML = '';
 
 
     const array = arrayCostCalc[idexes.MODELS][index];

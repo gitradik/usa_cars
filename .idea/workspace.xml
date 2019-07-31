@@ -2,11 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9992eeed-c028-4089-a357-31e95ff98f36" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/about/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/about/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/about/about.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/about/about.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/about/about.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/about/about.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/clients-have/clients-have.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/clients-have/clients-have.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/clients-have/clients-have.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/clients-have/clients-have.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/comparison/comparison.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/comparison/comparison.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/contact-form-modal-second/contact-form-modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/contact-form-modal-second/contact-form-modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/contact-form-modal/contact-form-modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/contact-form-modal/contact-form-modal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/cost-calc/cost-calc.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/cost-calc/cost-calc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/cost-calc/cost-calc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/cost-calc/cost-calc.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/cost-calc/cost-calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/cost-calc/cost-calc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/cost-calc/cost-calc.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/cost-calc/cost-calc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/cost-calc/cost-calc.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/cost-calc/cost-calc.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/open-form-second/open-form-second.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/open-form-second/open-form-second.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/open-form/open-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/open-form/open-form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/open-form/open-form.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/open-form/open-form.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/open-form/open-form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/open-form/open-form.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/work/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/work/work.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/data.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/data.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,19 +46,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/cost-calc/data.php">
+        <entry file="file://$PROJECT_DIR$/components/cost-calc/cost-calc.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="380">
+              <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/cost-calc/cost-calc.sass">
+        <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
-              <caret line="143" column="33" selection-start-line="140" selection-start-column="4" selection-end-line="143" selection-end-column="33" />
+              <caret line="34" column="102" selection-start-line="34" selection-start-column="102" selection-end-line="34" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/open-form/open-form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/open-form/open-form.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="658">
+              <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -42,17 +84,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/cost-calc/cost-calc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="981">
-              <caret line="79" column="119" selection-start-line="79" selection-start-column="119" selection-end-line="79" selection-end-column="119" />
+            <state relative-caret-position="513">
+              <caret line="33" column="99" selection-start-line="33" selection-start-column="99" selection-end-line="33" selection-end-column="99" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/cost-calc/cost-calc.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/data.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -127,12 +172,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/components/footer/footer-media.sass" />
-        <option value="$PROJECT_DIR$/components/certificate/certificate.php" />
-        <option value="$PROJECT_DIR$/components/footer/footer.sass" />
         <option value="$PROJECT_DIR$/components/map/map-media.sass" />
         <option value="$PROJECT_DIR$/components/certificate/certificate.sass" />
-        <option value="$PROJECT_DIR$/components/open-form/open-form.sass" />
         <option value="$PROJECT_DIR$/components/open-form/open-form.php" />
         <option value="$PROJECT_DIR$/components/contact-form-modal/contact-form-modal.sass" />
         <option value="$PROJECT_DIR$/components/contact-form-modal-second/contact-form-modal.php" />
@@ -147,12 +188,10 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/style/main.sass" />
         <option value="$PROJECT_DIR$/style/loader.css" />
-        <option value="$PROJECT_DIR$/components/open-form-second/open-form-second.php" />
         <option value="$PROJECT_DIR$/components/work/work-media.sass" />
         <option value="$PROJECT_DIR$/components/about/about-media.sass" />
         <option value="$PROJECT_DIR$/style/main-media.sass" />
         <option value="$PROJECT_DIR$/components/footer/footer.php" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/page-done.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/data-content.php" />
@@ -166,18 +205,24 @@
         <option value="$PROJECT_DIR$/components/map/map.sass" />
         <option value="$PROJECT_DIR$/components/navbar/navbar.php" />
         <option value="$PROJECT_DIR$/components/about/about.php" />
-        <option value="$PROJECT_DIR$/components/about/about.sass" />
         <option value="$PROJECT_DIR$/components/comparison/data.php" />
-        <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" />
-        <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.js" />
         <option value="/tmp/fz3temp-2/footer.php" />
         <option value="/tmp/fz3temp-2/header.php" />
         <option value="$PROJECT_DIR$/components/cost-calc/data.php" />
-        <option value="$PROJECT_DIR$/components/cost-calc/cost-calc.sass" />
-        <option value="$PROJECT_DIR$/components/cost-calc/cost-calc.php" />
+        <option value="$PROJECT_DIR$/components/open-form-second/open-form-second.php" />
         <option value="$PROJECT_DIR$/components/cost-calc/cost-calc.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/style/data.sass" />
+        <option value="$PROJECT_DIR$/components/about/about.sass" />
+        <option value="$PROJECT_DIR$/components/clients-have/clients-have.sass" />
+        <option value="$PROJECT_DIR$/components/footer/footer.sass" />
+        <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" />
+        <option value="$PROJECT_DIR$/components/cost-calc/cost-calc.php" />
+        <option value="$PROJECT_DIR$/components/cost-calc/cost-calc.sass" />
+        <option value="$PROJECT_DIR$/components/first-scroll/first-scroll.php" />
+        <option value="$PROJECT_DIR$/components/open-form/open-form.sass" />
       </list>
     </option>
   </component>
@@ -208,18 +253,7 @@
               <item name="usa_cars" type="b2602c69:ProjectViewProjectNode" />
               <item name="usa_cars" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="cost-calc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="usa_cars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="usa_cars" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="first-scroll" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="usa_cars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="usa_cars" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="open-form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usa_cars" type="b2602c69:ProjectViewProjectNode" />
@@ -280,12 +314,13 @@
       <workItem from="1564552297421" duration="9056000" />
       <workItem from="1564564766109" duration="2950000" />
       <workItem from="1564572820710" duration="5773000" />
-      <workItem from="1564585361007" duration="7957000" />
+      <workItem from="1564585361007" duration="8023000" />
+      <workItem from="1564595943012" duration="1994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75252000" />
+    <option name="totallyTimeSpent" value="77312000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -297,10 +332,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1046" extended-state="6" />
+    <frame x="-6" y="0" width="1932" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20405982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20619658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -346,34 +381,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/open-form-second/open-form-second.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/open-form/open-form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/open-form/open-form.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/open-form/open-form-media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/second-form.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -409,13 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/open-form-second/open-form-second.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/work/work.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -441,13 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -506,13 +499,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///tmp/fz3temp-2/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///tmp/fz3temp-2/main.js" />
     <entry file="file://$PROJECT_DIR$/images/right.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -564,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/about/about.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="117" column="18" lean-forward="true" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/about/about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -602,20 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -644,6 +610,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/cost-calc/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/cost-calc/cost-calc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/open-form-second/open-form-second.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/about/about.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/footer/footer.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/clients-have/clients-have.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style/data.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -651,38 +680,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/components/cost-calc/cost-calc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="66" lean-forward="true" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/cost-calc/data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="513">
+          <caret line="33" column="99" selection-start-line="33" selection-start-column="99" selection-end-line="33" selection-end-column="99" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/cost-calc/cost-calc.sass">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/first-scroll/first-scroll.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
-          <caret line="143" column="33" selection-start-line="140" selection-start-column="4" selection-end-line="143" selection-end-column="33" />
+          <caret line="34" column="102" selection-start-line="34" selection-start-column="102" selection-end-line="34" selection-end-column="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/cost-calc/cost-calc.php">
+    <entry file="file://$PROJECT_DIR$/components/open-form/open-form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="981">
-          <caret line="79" column="119" selection-start-line="79" selection-start-column="119" selection-end-line="79" selection-end-column="119" />
+        <state relative-caret-position="190">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/cost-calc/cost-calc.js">
+    <entry file="file://$PROJECT_DIR$/components/open-form/open-form.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        <state relative-caret-position="658">
+          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
         </state>
       </provider>
     </entry>

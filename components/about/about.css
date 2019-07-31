@@ -51,7 +51,7 @@
   transform: translateY(-50%);
 }
 .about-slider .arrow-slider i, .about-logo-slider .arrow-slider i, .open-form-logo-slider .arrow-slider i {
-  color: #ffa100;
+  color: #292929;
   font-size: 42px;
   transition: 0.2s;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.4);
@@ -93,8 +93,8 @@
   border: 2px solid #bababa;
 }
 .about-slider .slick-dots .slick-active button:before, .about-logo-slider .slick-dots .slick-active button:before, .open-form-logo-slider .slick-dots .slick-active button:before {
-  border-color: #ffa100;
-  background-color: #ffa100;
+  border-color: #292929;
+  background-color: #292929;
 }
 
 .about-logo-slider .slick-list .slick-slide .photo-gallery-slider-item img {

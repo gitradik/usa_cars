@@ -2,8 +2,18 @@
 
 .cost-calc
   padding: 30px 0
+  background-image: url("../../images/foto-topo.jpg")
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  overflow: hidden
+  position: relative
 
   hr
+
+  .row
+    background-color: rgba(0,0,0,.4)
+    box-shadow: 0 0 15px 0 rgba(255,255,255,.3)
 
   form
     width: 100%
@@ -27,9 +37,12 @@
 
       .ui-slider-handle
         cursor: pointer
-        height: 25px
+        height: 24px
         width: 25px
-        bottom: 0
+        bottom: -33px
+        margin-bottom: -4px
+        background-color: #767676
+        top: 0
 
     input
       display: block
@@ -62,7 +75,7 @@
       font-size: 18px
       font-weight: 700
       border-radius: 2px
-      border: 1px solid $orange
+      border: 1px solid white
       transition: .2s
       color: white
       background-color: $orange
@@ -70,7 +83,7 @@
       &:hover
         transition: .2s
         color: $orange
-        background-color: transparent
+        background-color: white
 
     .input-box
       display: flex
@@ -86,6 +99,7 @@
         font-weight: 500
         padding: 3px
         margin: 0
+        color: white
 
         span
           font-weight: 700
@@ -103,7 +117,7 @@
     .t
 
       h2
-        color: black
+        color: white
         font-weight: 900
 
       img
@@ -115,7 +129,7 @@
     p
       font-size: 22px
       font-weight: 500
-      color: black
+      color: white
 
   .dropdown
 

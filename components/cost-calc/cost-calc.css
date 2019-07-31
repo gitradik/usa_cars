@@ -1,5 +1,15 @@
 .cost-calc {
   padding: 30px 0;
+  background-image: url("../../images/foto-topo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+.cost-calc .row {
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.3);
 }
 .cost-calc form {
   width: 100%;
@@ -17,15 +27,18 @@
   height: 25px;
 }
 .cost-calc form #slider-range .ui-state-active {
-  background: #ffa100;
+  background: #292929;
   box-shadow: none;
-  border: 1px solid #ffa100;
+  border: 1px solid #292929;
 }
 .cost-calc form #slider-range .ui-slider-handle {
   cursor: pointer;
-  height: 25px;
+  height: 24px;
   width: 25px;
-  bottom: 0;
+  bottom: -33px;
+  margin-bottom: -4px;
+  background-color: #767676;
+  top: 0;
 }
 .cost-calc form input {
   display: block;
@@ -46,7 +59,7 @@
 }
 .cost-calc form input:focus {
   transition: 0.2s;
-  border-color: #ffa100;
+  border-color: #292929;
 }
 .cost-calc form input[type=submit] {
   display: block;
@@ -58,15 +71,15 @@
   font-size: 18px;
   font-weight: 700;
   border-radius: 2px;
-  border: 1px solid #ffa100;
+  border: 1px solid white;
   transition: 0.2s;
   color: white;
-  background-color: #ffa100;
+  background-color: #292929;
 }
 .cost-calc form input[type=submit]:hover {
   transition: 0.2s;
-  color: #ffa100;
-  background-color: transparent;
+  color: #292929;
+  background-color: white;
 }
 .cost-calc form .input-box {
   display: flex;
@@ -82,6 +95,7 @@
   font-weight: 500;
   padding: 3px;
   margin: 0;
+  color: white;
 }
 .cost-calc form .input-box p span {
   font-weight: 700;
@@ -97,7 +111,7 @@
   transform: rotateZ(180deg);
 }
 .cost-calc .cost-calc-text .t h2 {
-  color: black;
+  color: white;
   font-weight: 900;
 }
 .cost-calc .cost-calc-text .t img {
@@ -109,7 +123,7 @@
 .cost-calc .cost-calc-text p {
   font-size: 22px;
   font-weight: 500;
-  color: black;
+  color: white;
 }
 .cost-calc .dropdown .dropdown-toggle {
   border-radius: 0;
@@ -123,7 +137,7 @@
 }
 .cost-calc .dropdown .dropdown-toggle:focus {
   box-shadow: none !important;
-  border-color: #ffa100;
+  border-color: #292929;
 }
 .cost-calc .dropdown .dropdown-toggle:active {
   box-shadow: none !important;

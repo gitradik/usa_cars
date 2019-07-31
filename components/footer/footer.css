@@ -79,7 +79,7 @@ footer form input::placeholder {
 }
 footer form input:focus {
   transition: 0.2s;
-  border-color: #ffa100;
+  border-color: #292929;
 }
 footer form input[type=submit] {
   outline: none;
@@ -90,15 +90,15 @@ footer form input[type=submit] {
   font-size: 18px;
   font-weight: 700;
   border-radius: 2px;
-  border: 1px solid #ffa100;
+  border: 1px solid white;
   transition: 0.2s;
   color: white;
-  background-color: #ffa100;
+  background-color: #292929;
 }
 footer form input[type=submit]:hover {
   transition: 0.2s;
-  color: #ffa100;
-  background-color: transparent;
+  color: #292929;
+  background-color: white;
 }
 
 /*# sourceMappingURL=footer.css.map */

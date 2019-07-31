@@ -3,7 +3,8 @@
 <div id="costCalcId" class="cost-calc"
 
 >
-    <div class="container">
+    <div class="bg"></div>
+    <div style="z-index: 52; position: relative" class="container">
         <div class="row">
             <div class="col-lg-6 d-flex justify-content-center align-items-center">
                 <div class="cost-calc-text">
@@ -30,7 +31,7 @@
                         <p>Бюджет</p>
                         <p>
 
-                            <input type="text" id="amount" readonly style="border:0; color: #ffa100; font-weight:bold; max-width: 400px; outline: none;">
+                            <input type="text" id="amount" readonly style="border:0; color: #292929; font-weight:bold; max-width: 400px; outline: none;">
                         </p>
 
                         <div id="slider-range"></div>

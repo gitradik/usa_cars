@@ -29,14 +29,14 @@
   font-size: 18px;
   font-weight: 700;
   border-radius: 2px;
-  border: 1px solid #ffa100;
+  border: 1px solid #292929;
   transition: 0.2s;
   color: white;
-  background-color: #ffa100;
+  background-color: #292929;
 }
 .work .t button:hover {
   transition: 0.2s;
-  color: #ffa100;
+  color: #292929;
   background-color: transparent;
 }
 

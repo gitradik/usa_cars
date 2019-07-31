@@ -32,7 +32,7 @@
 }
 .contact-form-modal .modal-dialog .modal-content .modal-body form input:focus {
   transition: 0.2s;
-  border-color: #ffa100;
+  border-color: #292929;
 }
 .contact-form-modal .modal-dialog .modal-content .modal-body form input[type=submit] {
   outline: none;
@@ -43,14 +43,14 @@
   font-size: 18px;
   font-weight: 700;
   border-radius: 2px;
-  border: 1px solid #ffa100;
+  border: 1px solid #292929;
   transition: 0.2s;
   color: white;
-  background-color: #ffa100;
+  background-color: #292929;
 }
 .contact-form-modal .modal-dialog .modal-content .modal-body form input[type=submit]:hover {
   transition: 0.2s;
-  color: #ffa100;
+  color: #292929;
   background-color: white;
 }
 

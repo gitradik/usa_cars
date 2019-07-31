@@ -11,7 +11,7 @@
   background-color: white;
   padding: 20px;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
-  border: 1px solid rgba(255, 161, 0, 0.2);
+  border: 1px solid rgba(41, 41, 41, 0.2);
 }
 .clients-have .clients-have-card img {
   height: auto;
@@ -22,7 +22,7 @@
   margin: 10px 0;
   font-size: 18px;
   font-weight: 600;
-  border: 1px solid rgba(255, 161, 0, 0.4);
+  border: 1px solid rgba(41, 41, 41, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
