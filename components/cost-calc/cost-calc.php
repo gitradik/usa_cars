@@ -38,24 +38,21 @@
                     <div class="input-box mb-3">
                         <p>Марка авто</p>
                         <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle cost-calc-btn-text"
+                            <button class="btn btn-secondary dropdown-toggle cost-calc-btn-text costCalsDropdownBtn"
                                     type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Выбрать
                             </button>
-                            <div class="dropdown-menu" aria-labelledby="costCalcDropdownMenu">
+                            <div class="dropdown-menu costCalcDropdownMenu" aria-labelledby="costCalcDropdownMenu">
                                 <?php
-
+/*
 
                                     foreach ($cost_calc->marsk as $key => $value):
 
-                                ?>
-                                        <script type="text/javascript">
-                                            models = <?php echo json_encode($cost_calc->models[$key]); ?>;
+                                */?><!--
+                                    <div style="cursor: pointer" onclick="onClickMark(this, '<?php /*echo $key; */?>', '<?php /*echo $value; */?>', 0)"
+                                       class="dropdown-item cost-calc-drop-down-item" ><?php /*echo $value; */?></div>
+                                --><?php /*endforeach; */?>
 
-                                        </script>
-                                    <div style="cursor: pointer" onclick="onClickMark(this, '<?php echo $key; ?>', '<?php echo $value; ?>', 0)"
-                                       class="dropdown-item cost-calc-drop-down-item" ><?php echo $value; ?></div>
-                                <?php endforeach; ?>
                             </div>
                         </div>
                     </div>
@@ -63,34 +60,34 @@
                         <div class="input-box">
                             <p>Модель</p>
                             <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle cost-calc-btn-text"
+                                <button class="btn btn-secondary dropdown-toggle cost-calc-btn-text costCalsDropdownBtn"
                                         type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Выбрать
                                 </button>
-                                <div class="dropdown-menu" aria-labelledby="costCalcDropdownMenu">
-                                    <?php
-                                    foreach ($cost_calc->models[0] as $key => $value):
-                                        ?>
-                                        <div style="cursor: pointer" onclick="onClickMark('<?php echo $key; ?>', '<?php echo $value; ?>', 1)"
-                                             class="dropdown-item" ><?php echo $value; ?></div>
-                                    <?php endforeach; ?>
+                                <div class="dropdown-menu costCalcDropdownMenu" aria-labelledby="costCalcDropdownMenu">
+                                  <!--  <?php
+/*                                    foreach ($cost_calc->models[0] as $key => $value):
+                                        */?>
+                                        <div style="cursor: pointer" onclick="onClickMark('<?php /*echo $key; */?>', '<?php /*echo $value; */?>', 1)"
+                                             class="dropdown-item" ><?php /*echo $value; */?></div>
+                                    --><?php /*endforeach; */?>
                                 </div>
                             </div>
                         </div>
                         <div class="input-box">
                             <p>Год</p>
                             <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle cost-calc-btn-text"
+                                <button class="btn btn-secondary dropdown-toggle cost-calc-btn-text costCalsDropdownBtn"
                                         type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Выбрать
                                 </button>
-                                <div class="dropdown-menu" aria-labelledby="costCalcDropdownMenu">
+                                <div class="dropdown-menu costCalcDropdownMenu" aria-labelledby="costCalcDropdownMenu">
                                     <?php
-                                        foreach ($cost_calc->years[0] as $key => $value):
-                                            ?>
-                                        <div style="cursor: pointer" onclick="onClickMark('<?php echo $key; ?>', '<?php echo $value; ?>', 2)"
-                                             class="dropdown-item" ><?php echo $value; ?></div>
-                                    <?php endforeach; ?>
+/*                                        foreach ($cost_calc->years[0] as $key => $value):
+                                            */?><!--
+                                        <div style="cursor: pointer" onclick="onClickMark('<?php /*echo $key; */?>', '<?php /*echo $value; */?>', 2)"
+                                             class="dropdown-item" ><?php /*echo $value; */?></div>
+                                    --><?php /*endforeach; */?>
                                 </div>
                             </div>
                         </div>
