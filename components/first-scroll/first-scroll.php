@@ -1,3 +1,5 @@
+
+
 <div id="firstScrollId" class="first-scroll">
     <div id="firstScrollBgId" class="bg-img"></div>
     <div class="bg"></div>
@@ -22,7 +24,7 @@
                            'contactFormModalLocationId'
                        )"
                     >
-                        Получить<br> консультацию
+                        Получить консультацию
                     </button>
                 </div>
             </div>

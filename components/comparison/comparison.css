@@ -70,14 +70,15 @@
 }
 .comparison .comp-prod .comp-prod-specifications .comp-prod-name {
   border: 1px solid rgba(0, 0, 0, 0.15);
-  padding: 15px;
-  padding-left: 100px;
+  padding: 8px;
+  padding-left: 24px;
+  width: 100%;
   background-color: white;
-  transform: translateX(-85px);
+  transform: translateX(-20px);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
 }
 .comparison .comp-prod .comp-prod-specifications .comp-prod-name p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -138,6 +139,11 @@
   margin-bottom: 0;
 }
 
+@media only screen and (min-width: 512px) {
+  .comparison .comp-prod .comp-prod-specifications {
+    min-width: 382px;
+  }
+}
 @media only screen and (max-width: 1199px) {
   .comparison .comp-prod {
     display: inline-block;

@@ -1,6 +1,6 @@
 <?php require_once 'data.php'; ?>
 
-<div class="comparison">
+<div id="comparisonId" class="comparison">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -17,9 +17,9 @@
                         <div class="comp-prod-img"
                             style="background-image: url('<?php echo $prod->image; ?>')"
                         >
-                            <div class="comp-prod-title">
-                                <p><?php echo $prod->title; ?></p>
-                            </div>
+                            <!--<div class="comp-prod-title">
+                                <p><?php /*echo $prod->title; */?></p>
+                            </div>-->
                         </div>
                         <div class="comp-prod-specifications">
                             <div class="comp-prod-name">
@@ -36,7 +36,16 @@
                                     </div>
                                 <?php endforeach; ?>
                             </div>
-                            <button>Заказать подбор авто</button>
+                            <button
+                                    data-toggle="modal"
+                                    data-target="#contactFormModal"
+                                    onclick="onClickContactFormModal(
+                           'Заполните данные ниже и получите просчет стоимости и доставки БЕСПЛАТНО',
+                           'contactFormModalTitle',
+                           'Продукт => <?php echo $prod->title; ?>',
+                           'contactFormModalLocationId'
+                       )"
+                            >Заказать подбор авто</button>
                         </div>
                         <div class="comp-prod-review">
                             <p><?php echo $prod->review->name; ?></p>

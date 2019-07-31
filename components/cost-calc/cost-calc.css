@@ -1,6 +1,5 @@
 .cost-calc {
   padding: 30px 0;
-  background-color: #ffa100;
 }
 .cost-calc form {
   width: 100%;
@@ -9,6 +8,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+}
+.cost-calc form #slider-range {
+  width: 100%;
+  max-width: 400px;
+  height: 25px;
+}
+.cost-calc form #slider-range .ui-state-active {
+  background: #ffa100;
+  box-shadow: none;
+  border: 1px solid #ffa100;
+}
+.cost-calc form #slider-range .ui-slider-handle {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  bottom: 0;
 }
 .cost-calc form input {
   display: block;
@@ -19,7 +36,7 @@
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 10px;
-  padding: 15px 5px;
+  padding: 12px 5px;
   transition: 0.2s;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -35,7 +52,7 @@
   display: block;
   outline: none;
   max-width: 256px;
-  margin: 20px auto;
+  margin: 0 auto;
   cursor: pointer;
   padding: 12px 30px;
   font-size: 18px;
@@ -54,18 +71,15 @@
 .cost-calc form .input-box {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 0 10px;
 }
 .cost-calc form .input-box input {
   max-width: 100px;
 }
 .cost-calc form .input-box p {
-  text-decoration: underline;
   font-size: 18px;
   font-weight: 500;
-  font-style: italic;
-  background-color: #ffa100;
   padding: 3px;
   margin: 0;
 }
@@ -83,21 +97,38 @@
   transform: rotateZ(180deg);
 }
 .cost-calc .cost-calc-text .t h2 {
-  text-decoration: underline;
-  color: white;
+  color: black;
   font-weight: 900;
+}
+.cost-calc .cost-calc-text .t img {
+  position: relative;
+  transform: none;
+  height: auto;
+  max-width: 75px;
 }
 .cost-calc .cost-calc-text p {
   font-size: 22px;
   font-weight: 500;
-  color: white;
+  color: black;
 }
 .cost-calc .dropdown .dropdown-toggle {
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   background-color: white;
-  color: black;
+  color: rgba(0, 0, 0, 0.75);
   font-weight: 700;
+  padding: 12px 0;
   min-width: 120px;
   max-width: 120px;
+}
+.cost-calc .dropdown .dropdown-toggle:focus {
+  box-shadow: none !important;
+  border-color: #ffa100;
+}
+.cost-calc .dropdown .dropdown-toggle:active {
+  box-shadow: none !important;
+  background: none;
+  color: black;
 }
 @media only screen and (max-width: 991px) {
   .cost-calc .cost-calc-text p {

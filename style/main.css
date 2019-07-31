@@ -3,6 +3,7 @@ body {
 }
 
 .usa-cars-page {
+  position: relative;
   overflow: hidden;
   font-family: "Roboto", sans-serif !important;
 }
@@ -62,6 +63,10 @@ body {
   }
   form .input-box p {
     font-size: 14px !important;
+  }
+
+  .usa-cars-page .t h3 {
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 767px) {

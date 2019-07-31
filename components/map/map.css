@@ -27,15 +27,15 @@
   height: auto;
   max-width: 100%;
 }
-.map .map-map .sietl, .map .map-map .los-angeles, .map .map-map .chicago, .map .map-map .new-jercie, .map .map-map .savana, .map .map-map .huston, .map .map-map .mayami {
+.map .map-map .sietl, .map .map-map .los-angeles, .map .map-map .chicago, .map .map-map .new-jercie, .map .map-map .savana, .map .map-map .huston, .map .map-map .mayami, .map .map-map .indiapolice {
   position: absolute;
   text-align: center;
 }
-.map .map-map .sietl img, .map .map-map .los-angeles img, .map .map-map .chicago img, .map .map-map .new-jercie img, .map .map-map .savana img, .map .map-map .huston img, .map .map-map .mayami img {
+.map .map-map .sietl img, .map .map-map .los-angeles img, .map .map-map .chicago img, .map .map-map .new-jercie img, .map .map-map .savana img, .map .map-map .huston img, .map .map-map .mayami img, .map .map-map .indiapolice img {
   height: 40px;
   width: 40px;
 }
-.map .map-map .sietl p, .map .map-map .los-angeles p, .map .map-map .chicago p, .map .map-map .new-jercie p, .map .map-map .savana p, .map .map-map .huston p, .map .map-map .mayami p {
+.map .map-map .sietl p, .map .map-map .los-angeles p, .map .map-map .chicago p, .map .map-map .new-jercie p, .map .map-map .savana p, .map .map-map .huston p, .map .map-map .mayami p, .map .map-map .indiapolice p {
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 3px;
@@ -50,7 +50,11 @@
   left: 0;
 }
 .map .map-map .chicago {
-  top: 31%;
+  top: 25%;
+  left: 58%;
+}
+.map .map-map .indiapolice {
+  top: 30%;
   left: 60%;
 }
 .map .map-map .new-jercie {

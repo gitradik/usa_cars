@@ -1,10 +1,8 @@
-function onClickMark(id, value, idButton, models) {
+let models = [];
+
+function onClickMark(target, id, value, idButton, models) {
+    console.log(models);
     const buttons = [...document.getElementsByClassName('cost-calc-btn-text')];
     buttons[idButton].innerText = value;
 }
 
-$(document).ready(function() {
-    $('.cost-calc-drop-down-item').on('click', function (e) {
-        console.log($(this).data("value"));
-    });
-});

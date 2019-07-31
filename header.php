@@ -1,3 +1,5 @@
+<?php require_once 'data-content.php'; ?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,6 +12,8 @@
     <meta name="theme-color" content="#ffa100">
     <meta name="description" content="<?php bloginfo('description')?>">
 
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
     <!-- NODE_MODULES -->
@@ -21,23 +25,24 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/node_modules/magnific-popup/dist/magnific-popup.css">
 
     <!-- MY STYLES -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/reset.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/sub-style.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/main.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/contact-form-modal/contact-form-modal.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/navbar/navbar.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/first-scroll/first-scroll.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/cost-calc/cost-calc.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/about/about.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/clients-have/clients-have.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/comparison/comparison.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/open-form/open-form.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/work/work.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/map/map.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/open-form-second/open-form-second.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/partners/partners.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/certificate/certificate.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/footer/footer.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/reset.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/sub-style.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/loader.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style/main.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/contact-form-modal/contact-form-modal.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/navbar/navbar.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/first-scroll/first-scroll.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/cost-calc/cost-calc.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/about/about.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/clients-have/clients-have.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/comparison/comparison.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/open-form/open-form.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/work/work.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/map/map.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/open-form-second/open-form-second.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/partners/partners.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/certificate/certificate.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/footer/footer.css?v=1.2">
 
 
 </head>

@@ -2,7 +2,22 @@
 
     <div class="usa-cars-page">
 
+        <div id="pageLoaderId" class="page-loader d-none">
+            <div class="sk-cube-grid">
+                <div class="sk-cube sk-cube1"></div>
+                <div class="sk-cube sk-cube2"></div>
+                <div class="sk-cube sk-cube3"></div>
+                <div class="sk-cube sk-cube4"></div>
+                <div class="sk-cube sk-cube5"></div>
+                <div class="sk-cube sk-cube6"></div>
+                <div class="sk-cube sk-cube7"></div>
+                <div class="sk-cube sk-cube8"></div>
+                <div class="sk-cube sk-cube9"></div>
+            </div>
+        </div>
+
         <?php require_once get_template_directory() . '/components/contact-form-modal/contact-form-modal.php'; ?>
+        <?php require_once get_template_directory() . '/components/contact-form-modal-second/contact-form-modal.php'; ?>
         <?php require_once get_template_directory() . '/components/navbar/navbar.php'; ?>
         <?php require_once get_template_directory() . '/components/first-scroll/first-scroll.php'; ?>
         <?php require_once get_template_directory() . '/components/cost-calc/cost-calc.php'; ?>

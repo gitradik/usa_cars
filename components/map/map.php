@@ -7,7 +7,7 @@
             <div class="col-md-12">
                 <div class="t">
                     <h2>Доставим автомобиль с любой точки в США</h2>
-                    <p>Осуществляем доставку авто в максимально быстрые сроки из 7 портов США обеспечивая полную страховку автомобиля на время транспортировки</p>
+                    <p>Осуществляем доставку авто в максимально быстрые сроки из 8 портов США обеспечивая полную страховку автомобиля на время транспортировки</p>
                 </div>
             </div>
             <div class="col-md-12 d-flex align-items-center justify-content-center">
@@ -22,8 +22,13 @@
                         <p>Порт "Лос-Анжелес"</p>
                     </div>
                     <div class="chicago">
+                        <p class="mb-0">Порт "Чикаго"</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder.svg" alt="placeholder">
-                        <p>Порт "Чикаго"</p>
+
+                    </div>
+                    <div class="indiapolice">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder.svg" alt="placeholder">
+                        <p>Порт "Индианаполис"</p>
                     </div>
                     <div class="new-jercie">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder.svg" alt="placeholder">

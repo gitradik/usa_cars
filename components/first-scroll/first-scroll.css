@@ -7,6 +7,7 @@
   overflow: hidden;
 }
 .first-scroll .btn-down {
+  text-transform: uppercase;
   cursor: pointer;
   outline: none;
   position: absolute;
@@ -36,16 +37,15 @@
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.4);
-  background-image: url("../../images/back-first-scroll.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transition: 1s;
+  transition: 6s;
   transform: scale(1);
 }
 .first-scroll .bg-img-animate {
-  transition: all 3s;
-  transform: scale(1.5);
+  transition: all 9s;
+  transform: scale(1.2);
 }
 .first-scroll .t {
   margin-bottom: 60px;
@@ -107,8 +107,8 @@
   outline: none;
   cursor: pointer;
   padding: 12px 30px;
-  font-size: 26px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 900;
   border-radius: 2px;
   border: 1px solid #ffa100;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);

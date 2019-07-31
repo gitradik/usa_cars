@@ -1,11 +1,14 @@
 <?php require_once 'data.php'; ?>
 
-<div id="costCalcId" class="cost-calc">
+<div id="costCalcId" class="cost-calc"
+
+>
     <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex justify-content-center align-items-center">
                 <div class="cost-calc-text">
                     <div class="t">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/clean-water.svg" alt="lean-water">
                         <h2>Вы в поиске хорошего автомобиля
 
                             по выгодной цене?</h2>
@@ -19,22 +22,18 @@
                 </div>
             </div>
             <div class="col-lg-6 py-3 d-flex justify-content-center align-items-center cost-col">
-
-                <form style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/CFRAutoDirect.png');
-                    background-position: center; background-size: cover; background-repeat: no-repeat"> <!--TODO drop downs menu php with js-->
+                <!--background-image: url('<?php /* echo get_template_directory_uri();*/ ?>/images/savings-2789153_1280.jpg');-->
+                <form class="telegram" type="POST"> <!--TODO drop downs menu php with js-->
 
                     <input type="hidden" name="location" value="Второй скролл => Вы в поиске хорошего автомобиля по выгодной цене?">
-                    <div class="input-box p-0">
-                        <div class="input-box ml-0 pl-0">
-                            <p style="min-width: 79px">Бюджет <span>от</span></p>
-                            <input type="number" value="0">
-                            <p>$</p>
-                        </div>
-                        <div class="input-box mr-0 pr-0">
-                            <p><span>до</span></p>
-                            <input type="number" value="0">
-                            <p>$</p>
-                        </div>
+                    <div class="input-box p-0 flex-column w-100 pb-3">
+                        <p>Бюджет</p>
+                        <p>
+
+                            <input type="text" id="amount" readonly style="border:0; color: #ffa100; font-weight:bold; max-width: 400px; outline: none;">
+                        </p>
+
+                        <div id="slider-range"></div>
                     </div>
                     <div class="input-box mb-3">
                         <p>Марка авто</p>
@@ -45,9 +44,16 @@
                             </button>
                             <div class="dropdown-menu" aria-labelledby="costCalcDropdownMenu">
                                 <?php
+
+
                                     foreach ($cost_calc->marsk as $key => $value):
+
                                 ?>
-                                    <div data-value="<?php echo json_encode($cost_calc->models[$key]); ?>" style="cursor: pointer" onclick="onClickMark('<?php echo $key; ?>', '<?php echo $value; ?>', 0)"
+                                        <script type="text/javascript">
+                                            models = <?php echo json_encode($cost_calc->models[$key]); ?>;
+
+                                        </script>
+                                    <div style="cursor: pointer" onclick="onClickMark(this, '<?php echo $key; ?>', '<?php echo $value; ?>', 0)"
                                        class="dropdown-item cost-calc-drop-down-item" ><?php echo $value; ?></div>
                                 <?php endforeach; ?>
                             </div>

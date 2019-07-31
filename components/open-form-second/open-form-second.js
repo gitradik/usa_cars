@@ -47,3 +47,4 @@ $(".open-form-logo-slider").slick({
         },
     ],
 });
+

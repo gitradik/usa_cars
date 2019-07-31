@@ -1,4 +1,4 @@
-<div class="about">
+<div id="aboutId" class="about" style="background-color: #f2f2f2">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -36,6 +36,13 @@
                     </div>
                 </div>
             </div>
+
+        </div>
+    </div>
+</div>
+<div class="about">
+    <div class="container">
+        <div class="row">
             <div class="col-md-12 pt-3">
                 <div class="about-logo-slider">
                     <div>

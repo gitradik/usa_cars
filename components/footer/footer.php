@@ -1,4 +1,4 @@
-<footer>
+<footer id="footerId">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
@@ -20,7 +20,7 @@
                     <div class="t">
                         <h4>Остались вопросы?</h4>
                     </div>
-                    <input type="hidden" name="location" value="Не можете определится с выбором автомобиля? => Открытая форма">
+                    <input type="hidden" name="location" value="Контакты">
                     <input name="name" type="text" placeholder="Имя">
                     <input class="input-mask-s" name="phone" type="tel" placeholder="Телефон *" required>
                     <input type="submit" value="Задать вопрос">

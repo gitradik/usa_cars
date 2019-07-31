@@ -1,10 +1,20 @@
 .open-form-second {
   padding: 30px 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
   position: relative;
   overflow: hidden;
+}
+.open-form-second .bg-img {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: right;
+  transition: 1s;
+  transform: scale(1);
 }
 .open-form-second .t {
   text-align: center;
@@ -28,14 +38,23 @@
   box-shadow: none;
   border: none;
 }
+.open-form-second .ops-t {
+  position: relative;
+  z-index: 0;
+  top: 0;
+  right: 30%;
+  text-align: right;
+}
 .open-form-second .ops-t h3 {
   display: inline-block;
-  padding: 20px;
-  font-size: 60px;
+  padding: 15px 30px;
+  font-size: 40px;
+  border: 3px solid white;
   font-weight: 900;
   color: white;
-  background-color: #ff2f2f;
-  text-decoration: underline;
+  border-radius: 30px;
+  background-color: #f2491c;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
 .open-form-second form {
   position: relative;
@@ -54,7 +73,7 @@
   text-align: center;
   outline: none;
   display: block;
-  max-width: 400px;
+  max-width: 420px;
   margin: 0 auto;
   width: 100%;
   font-size: 18px;
@@ -74,7 +93,7 @@
 }
 .open-form-second form input[type=submit] {
   outline: none;
-  max-width: 400px;
+  max-width: 420px;
   margin: 20px auto;
   cursor: pointer;
   padding: 12px 30px;
@@ -90,6 +109,81 @@
   transition: 0.2s;
   color: #ffa100;
   background-color: transparent;
+}
+
+@media only screen and (max-width: 1564px) {
+  .open-form-second .ops-t {
+    right: 37%;
+  }
+}
+@media only screen and (max-width: 1376px) {
+  .open-form-second .ops-t {
+    right: 40%;
+  }
+}
+@media only screen and (max-width: 1176px) {
+  .open-form-second .ops-t {
+    right: 45%;
+  }
+}
+@media only screen and (max-width: 1176px) {
+  .open-form-second .ops-t {
+    right: 50%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .open-form-second .t {
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.7);
+    padding: 10px;
+  }
+  .open-form-second .t h2 {
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  .open-form-second .t p {
+    color: black;
+  }
+}
+@media only screen and (max-width: 858px) {
+  .open-form-second .ops-t {
+    right: 55%;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .open-form-second .ops-t {
+    right: 55%;
+  }
+  .open-form-second .ops-t h3 {
+    padding: 10px 20px;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .open-form-second .ops-t {
+    right: 60%;
+  }
+}
+@media only screen and (min-width: 671px) {
+  .open-form-second .ops-t-m {
+    display: none;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .open-form-second .ops-t {
+    display: none;
+  }
+  .open-form-second .ops-t-m {
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .open-form-second .ops-t-m h3 {
+    margin: 0 !important;
+  }
 }
 
 /*# sourceMappingURL=open-form-second.css.map */

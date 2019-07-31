@@ -53,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-xl-4 d-flex align-items-center justify-content-center">
+            <div class="col-lg-6 col-xl-5 d-flex align-items-center justify-content-center">
                 <form class="telegram">
                     <div class="t">
                         <h4><span>Заполните форму ниже  ПРЯМО СЕЙЧАС</span><br>

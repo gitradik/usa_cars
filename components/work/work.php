@@ -43,7 +43,16 @@
             <div class="col-md-12 pt-5">
                 <div class="t">
                     <h3>Скачайте подбробную инструкцию с подробным описанием всех этапов покупки и доставки авто из США </h3>
-                    <button>Заказать инструкцию</button>
+                    <button
+                            data-toggle="modal"
+                            data-target="#contactFormModalSecond"
+                            onclick="onClickContactFormModal(
+                           'Заполните данные ниже и получите подробные этапы покупки авто БЕСПЛАТНО на Вашу почту',
+                           'contactFormModalSecondTitle',
+                           'Как мы работаем => Заказать инструкцию',
+                           'contactFormModalSecondLocationId'
+                       )"
+                    >Заказать инструкцию</button>
                 </div>
             </div>
         </div>

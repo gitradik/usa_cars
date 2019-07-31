@@ -14,7 +14,8 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form class="telegram">
+                <form action="/usa_cars" class="telegram" type="POST">
+                    <input type="hidden" name="action" value="sendTelegram">
                     <input id="contactFormModalLocationId" type="hidden" name="location">
                     <input name="name" type="text" placeholder="Имя">
                     <input class="input-mask-s" name="phone" type="tel" placeholder="Телефон *" required>
