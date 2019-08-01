@@ -98,6 +98,12 @@
   .navbar .navbar-brand img {
     max-width: 50px;
   }
+  .navbar .navbar-nav {
+    padding-top: 20px;
+  }
+  .navbar .navbar-nav .nav-item {
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=navbar.css.map */

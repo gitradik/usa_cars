@@ -11,40 +11,42 @@
                 </div>
             </div>
             <div class="col-md-12 d-flex align-items-center justify-content-center">
-                <div class="map-map ">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/Map_of_US_For_delivery.png" alt="Map_of_US_For_delivery">
+                <div class="map-map">
+                    <img class="map-img" src="<?php echo get_template_directory_uri(); ?>/images/Map_of_US_For_delivery.png" alt="Map_of_US_For_delivery">
                     <div class="sietl">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder.svg" alt="placeholder">
-                        <p>Порт "Сиэтл"</p>
+                        <p><span>Порт</span> "Сиэтл"</p>
                     </div>
                     <div class="los-angeles">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder.svg" alt="placeholder">
-                        <p>Порт "Лос-Анжелес"</p>
+                        <p><span>Порт</span> "Лос-Анжелес"</p>
                     </div>
                     <div class="chicago">
-                        <p class="mb-0">Порт "Чикаго"</p>
+                        <p class="mb-0"><span>Порт</span> "Чикаго"</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder.svg" alt="placeholder">
 
                     </div>
                     <div class="indiapolice">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder.svg" alt="placeholder">
-                        <p>Порт "Индианаполис"</p>
+                        <p><span>Порт</span> "Индианаполис"</p>
                     </div>
                     <div class="new-jercie">
+                        <p class="mb-0"><span>Порт</span> "Нью Джерси"</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder.svg" alt="placeholder">
-                        <p>Порт "Нью Джерси"</p>
+
                     </div>
                     <div class="savana">
+                        <p class="mb-0"><span>Порт</span> "Саванна"</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder.svg" alt="placeholder">
-                        <p>Порт "Саванна"</p>
+
                     </div>
                     <div class="huston">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder.svg" alt="placeholder">
-                        <p>Порт "Хьюстон"</p>
+                        <p><span>Порт</span> "Хьюстон"</p>
                     </div>
                     <div class="mayami">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/placeholder.svg" alt="placeholder">
-                        <p>Порт "Маями"</p>
+                        <p><span>Порт</span> "Маями"</p>
                     </div>
                 </div>
             </div>

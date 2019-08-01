@@ -7,16 +7,16 @@
 <script src="<?php echo get_template_directory_uri(); ?>/node_modules/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/node_modules/inputmask/dist/jquery.inputmask.bundle.js"></script>
 
-<script src="<?php echo get_template_directory_uri(); ?>/js/main.js?v=1.5"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/inp-mask.js?v=1.5"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/components/contact-form-modal/contact-form-modal.js?v=1.5"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/components/first-scroll/first-scroll.js?v=1.5"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/components/cost-calc/cost-calc.js?v=1.5"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/components/about/about.js?v=1.5"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/components/open-form/open-form.js?v=1.5"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/components/partners/partners.js?v=1.5"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/components/open-form-second/open-form-second.js?v=1.5"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/components/footer/footer.js?v=1.5"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/main.js?v=2.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/inp-mask.js?v=2.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/components/contact-form-modal/contact-form-modal.js?v=2.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/components/first-scroll/first-scroll.js?v=2.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/components/cost-calc/cost-calc.js?v=2.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/components/about/about.js?v=2.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/components/open-form/open-form.js?v=2.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/components/partners/partners.js?v=2.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/components/open-form-second/open-form-second.js?v=2.2"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/components/footer/footer.js?v=2.2"></script>
 
 <script type="text/javascript">
     setPathToImage('<?php echo get_template_directory_uri(); ?>');

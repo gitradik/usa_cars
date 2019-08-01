@@ -25,11 +25,14 @@
                 <form class="telegram" type="POST"> <!--TODO drop downs menu php with js-->
 
                     <input type="hidden" name="location" value="Второй скролл => Вы в поиске хорошего автомобиля по выгодной цене?">
+                    <input id="markInpHidId" type="hidden" name="mark_auto">
+                    <input id="modelInpHidId" type="hidden" name="model_auto">
+                    <input id="yearInpHidId" type="hidden" name="year_auto">
                     <div class="input-box p-0 flex-column w-100 pb-3">
                         <p>Бюджет</p>
                         <p>
 
-                            <input type="text" id="amount" readonly style="border:0; color: #292929; font-weight:bold; max-width: 400px; outline: none;">
+                            <input name="budget" type="text" id="amount" readonly style="border:0; color: #292929; font-weight:bold; max-width: 400px; outline: none;">
                         </p>
 
                         <div id="slider-range"></div>
@@ -42,15 +45,6 @@
                                 Выбрать
                             </button>
                             <div class="dropdown-menu costCalcDropdownMenu" aria-labelledby="costCalcDropdownMenu">
-                                <?php
-/*
-
-                                    foreach ($cost_calc->marsk as $key => $value):
-
-                                */?><!--
-                                    <div style="cursor: pointer" onclick="onClickMark(this, '<?php /*echo $key; */?>', '<?php /*echo $value; */?>', 0)"
-                                       class="dropdown-item cost-calc-drop-down-item" ><?php /*echo $value; */?></div>
-                                --><?php /*endforeach; */?>
 
                             </div>
                         </div>
@@ -64,12 +58,7 @@
                                     Выбрать
                                 </button>
                                 <div class="dropdown-menu costCalcDropdownMenu" aria-labelledby="costCalcDropdownMenu">
-                                  <!--  <?php
-/*                                    foreach ($cost_calc->models[0] as $key => $value):
-                                        */?>
-                                        <div style="cursor: pointer" onclick="onClickMark('<?php /*echo $key; */?>', '<?php /*echo $value; */?>', 1)"
-                                             class="dropdown-item" ><?php /*echo $value; */?></div>
-                                    --><?php /*endforeach; */?>
+
                                 </div>
                             </div>
                         </div>
@@ -81,12 +70,7 @@
                                     Выбрать
                                 </button>
                                 <div class="dropdown-menu costCalcDropdownMenu" aria-labelledby="costCalcDropdownMenu">
-                                    <?php
-/*                                        foreach ($cost_calc->years[0] as $key => $value):
-                                            */?><!--
-                                        <div style="cursor: pointer" onclick="onClickMark('<?php /*echo $key; */?>', '<?php /*echo $value; */?>', 2)"
-                                             class="dropdown-item" ><?php /*echo $value; */?></div>
-                                    --><?php /*endforeach; */?>
+
                                 </div>
                             </div>
                         </div>

@@ -18,13 +18,15 @@ const arrayCostCalc = [
         [['2015', '2016', '2017', '2018'], ['1888', '1888', '1888']]
     ]
 ];
-
 const idexes = { MARKS: 0, MODELS: 1, YEARS: 2};
+const dropdowns = [...document.getElementsByClassName('costCalcDropdownMenu')];
+const dropdownBtns = [...document.getElementsByClassName('costCalsDropdownBtn')];
+
+const markInpHid = document.getElementById('markInpHidId');
+const modelInpHidId = document.getElementById('modelInpHidId');
+const yearInpHidId = document.getElementById('yearInpHidId');
 
 function setDropDowns() {
-
-    const dropdowns = [...document.getElementsByClassName('costCalcDropdownMenu')];
-    const dropdownBtns = [...document.getElementsByClassName('costCalsDropdownBtn')];
     dropdowns[idexes.MARKS].innerHTML = '';
 
     const array = arrayCostCalc[idexes.MARKS];
@@ -38,6 +40,7 @@ function setDropDowns() {
 
             dropdownBtns[idexes.MODELS].innerText = 'Выбрать';
             dropdownBtns[idexes.MARKS].innerText = array[index]['name'];
+            markInpHid.value = array[index]['name'];
             setModels(index);
         }
 
@@ -48,14 +51,9 @@ function setDropDowns() {
 }
 
 function setModels(index) {
-
     const markIndex = index;
-    const dropdowns = [...document.getElementsByClassName('costCalcDropdownMenu')];
-    const dropdownBtns = [...document.getElementsByClassName('costCalsDropdownBtn')];
     dropdowns[idexes.MODELS].innerHTML = '';
     dropdowns[idexes.YEARS].innerHTML = '';
-
-
     const array = arrayCostCalc[idexes.MODELS][index];
 
     for (let i = 0; i < array.length; i++) {
@@ -69,6 +67,7 @@ function setModels(index) {
         function onClickBtn(index) {
             dropdownBtns[idexes.YEARS].innerText = 'Выбрать';
             dropdownBtns[idexes.MODELS].innerText = array[i];
+            modelInpHidId.value = array[i];
             setYears(markIndex, index);
         }
 
@@ -79,8 +78,6 @@ function setModels(index) {
 }
 
 function setYears(markIndex, index) {
-    const dropdowns = [...document.getElementsByClassName('costCalcDropdownMenu')];
-    const dropdownBtns = [...document.getElementsByClassName('costCalsDropdownBtn')];
     dropdowns[idexes.YEARS].innerHTML = '';
 
     const array = arrayCostCalc[idexes.YEARS][markIndex][index];
@@ -95,6 +92,7 @@ function setYears(markIndex, index) {
         function onClickBtn(index) {
 
             dropdownBtns[idexes.YEARS].innerText = array[i];
+            yearInpHidId.value = array[i];
             setModels(index);
         }
 

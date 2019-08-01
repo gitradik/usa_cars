@@ -1,1 +1,148 @@
 @import "../../style/data"
+
+@media only screen and (max-width: 991px)
+  .map
+
+    .map-map
+
+      .sietl, .los-angeles, .chicago, .new-jercie, .savana, .huston, .mayami, .indiapolice
+
+        img
+          height: 25px
+          width: 25px
+
+        p
+          font-weight: 900
+          font-size: 13px
+
+      .sietl
+        top: 1%
+        left: 3%
+
+      .los-angeles
+        top: 52%
+        left: -2%
+
+      .chicago
+        top: 25%
+        left: 62%
+
+      .indiapolice
+        top: 30%
+        left: 65%
+
+      .new-jercie
+        top: 27%
+        right: 5%
+
+      .savana
+        top: 66%
+        right: 16%
+
+      .huston
+        bottom: 8%
+        left: 45%
+
+      .mayami
+        bottom: 0
+        right: 13%
+
+@media only screen and (max-width: 767px)
+  .map
+
+    .map-map
+      position: relative
+      z-index: 50
+
+      img
+        height: auto
+        max-width: 100%
+
+      .sietl, .los-angeles, .chicago, .new-jercie, .savana, .huston, .mayami, .indiapolice
+
+        img
+          height: 25px
+          width: 25px
+
+        p
+          color: white
+          background-color: rgba(0,0,0,.4)
+          padding: 3px
+          font-weight: 900
+          font-size: 13px
+
+      .sietl
+        top: 1%
+        left: 2%
+
+      .los-angeles
+        top: 54%
+        left: -3%
+
+      .chicago
+        top: 20%
+        left: 60%
+
+      .indiapolice
+        top: 29%
+        left: 62%
+
+      .new-jercie
+        top: 27%
+        right: 3%
+
+      .savana
+        top: 62%
+        right: 14%
+
+      .huston
+        bottom: 3%
+        left: 46%
+
+      .mayami
+        bottom: -5%
+        right: 13%
+
+@media only screen and (max-width: 575px)
+  .map
+
+    .map-map
+
+      .map-img
+        max-width: 200px
+
+      .sietl, .los-angeles, .chicago, .new-jercie, .savana, .huston, .mayami, .indiapolice
+        position: relative
+        top: auto
+        left: auto
+        right: auto
+        bottom: auto
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin-bottom: 10px
+
+        img
+          order: 0
+          margin: 0 auto
+
+        p
+          order: 1
+
+        img
+          height: 35px
+          width: 35px
+          margin-bottom: 2px
+
+        p
+          margin-bottom: 5px!important
+          border: 1px solid white
+          padding: 4px 6px
+          font-size: 16px
+
+          span
+            display: inline-block
+
+      .savana
+
+

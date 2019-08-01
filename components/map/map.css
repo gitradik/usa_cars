@@ -41,6 +41,9 @@
   padding: 3px;
   font-weight: 700;
 }
+.map .map-map .sietl p span, .map .map-map .los-angeles p span, .map .map-map .chicago p span, .map .map-map .new-jercie p span, .map .map-map .savana p span, .map .map-map .huston p span, .map .map-map .mayami p span, .map .map-map .indiapolice p span {
+  display: none;
+}
 .map .map-map .sietl {
   top: 1%;
   left: 1.5%;
@@ -63,7 +66,7 @@
 }
 .map .map-map .savana {
   top: 66%;
-  right: 15%;
+  right: 17%;
 }
 .map .map-map .huston {
   bottom: 8%;
@@ -72,6 +75,139 @@
 .map .map-map .mayami {
   bottom: 0;
   right: 13%;
+}
+
+@media only screen and (max-width: 991px) {
+  .map .map-map .sietl img, .map .map-map .los-angeles img, .map .map-map .chicago img, .map .map-map .new-jercie img, .map .map-map .savana img, .map .map-map .huston img, .map .map-map .mayami img, .map .map-map .indiapolice img {
+    height: 25px;
+    width: 25px;
+  }
+  .map .map-map .sietl p, .map .map-map .los-angeles p, .map .map-map .chicago p, .map .map-map .new-jercie p, .map .map-map .savana p, .map .map-map .huston p, .map .map-map .mayami p, .map .map-map .indiapolice p {
+    font-weight: 900;
+    font-size: 13px;
+  }
+  .map .map-map .sietl {
+    top: 1%;
+    left: 3%;
+  }
+  .map .map-map .los-angeles {
+    top: 52%;
+    left: -2%;
+  }
+  .map .map-map .chicago {
+    top: 25%;
+    left: 62%;
+  }
+  .map .map-map .indiapolice {
+    top: 30%;
+    left: 65%;
+  }
+  .map .map-map .new-jercie {
+    top: 27%;
+    right: 5%;
+  }
+  .map .map-map .savana {
+    top: 66%;
+    right: 16%;
+  }
+  .map .map-map .huston {
+    bottom: 8%;
+    left: 45%;
+  }
+  .map .map-map .mayami {
+    bottom: 0;
+    right: 13%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .map .map-map {
+    position: relative;
+    z-index: 50;
+  }
+  .map .map-map img {
+    height: auto;
+    max-width: 100%;
+  }
+  .map .map-map .sietl img, .map .map-map .los-angeles img, .map .map-map .chicago img, .map .map-map .new-jercie img, .map .map-map .savana img, .map .map-map .huston img, .map .map-map .mayami img, .map .map-map .indiapolice img {
+    height: 25px;
+    width: 25px;
+  }
+  .map .map-map .sietl p, .map .map-map .los-angeles p, .map .map-map .chicago p, .map .map-map .new-jercie p, .map .map-map .savana p, .map .map-map .huston p, .map .map-map .mayami p, .map .map-map .indiapolice p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 3px;
+    font-weight: 900;
+    font-size: 13px;
+  }
+  .map .map-map .sietl {
+    top: 1%;
+    left: 2%;
+  }
+  .map .map-map .los-angeles {
+    top: 54%;
+    left: -3%;
+  }
+  .map .map-map .chicago {
+    top: 20%;
+    left: 60%;
+  }
+  .map .map-map .indiapolice {
+    top: 29%;
+    left: 62%;
+  }
+  .map .map-map .new-jercie {
+    top: 27%;
+    right: 3%;
+  }
+  .map .map-map .savana {
+    top: 62%;
+    right: 14%;
+  }
+  .map .map-map .huston {
+    bottom: 3%;
+    left: 46%;
+  }
+  .map .map-map .mayami {
+    bottom: -5%;
+    right: 13%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .map .map-map .map-img {
+    max-width: 200px;
+  }
+  .map .map-map .sietl, .map .map-map .los-angeles, .map .map-map .chicago, .map .map-map .new-jercie, .map .map-map .savana, .map .map-map .huston, .map .map-map .mayami, .map .map-map .indiapolice {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .map .map-map .sietl img, .map .map-map .los-angeles img, .map .map-map .chicago img, .map .map-map .new-jercie img, .map .map-map .savana img, .map .map-map .huston img, .map .map-map .mayami img, .map .map-map .indiapolice img {
+    order: 0;
+    margin: 0 auto;
+  }
+  .map .map-map .sietl p, .map .map-map .los-angeles p, .map .map-map .chicago p, .map .map-map .new-jercie p, .map .map-map .savana p, .map .map-map .huston p, .map .map-map .mayami p, .map .map-map .indiapolice p {
+    order: 1;
+  }
+  .map .map-map .sietl img, .map .map-map .los-angeles img, .map .map-map .chicago img, .map .map-map .new-jercie img, .map .map-map .savana img, .map .map-map .huston img, .map .map-map .mayami img, .map .map-map .indiapolice img {
+    height: 35px;
+    width: 35px;
+    margin-bottom: 2px;
+  }
+  .map .map-map .sietl p, .map .map-map .los-angeles p, .map .map-map .chicago p, .map .map-map .new-jercie p, .map .map-map .savana p, .map .map-map .huston p, .map .map-map .mayami p, .map .map-map .indiapolice p {
+    margin-bottom: 5px !important;
+    border: 1px solid white;
+    padding: 4px 6px;
+    font-size: 16px;
+  }
+  .map .map-map .sietl p span, .map .map-map .los-angeles p span, .map .map-map .chicago p span, .map .map-map .new-jercie p span, .map .map-map .savana p span, .map .map-map .huston p span, .map .map-map .mayami p span, .map .map-map .indiapolice p span {
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=map.css.map */
