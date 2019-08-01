@@ -1,5 +1,3 @@
-<?php require_once 'data.php'; ?>
-
 <div id="costCalcId" class="cost-calc"
 
 >

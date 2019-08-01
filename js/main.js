@@ -1,5 +1,19 @@
 AOS.init();
 
+$('.telegram').submit(function (e) {
+    e.preventDefault();
+    const orderLoader = document.getElementById('pageLoaderId');
+    orderLoader.classList.remove('d-none');
+    $.ajax({
+        type: 'POST',
+        url: '/usa_cars/wp-content/themes/usa_cars/api-telegram.php',
+        data: $(this).serialize()
+    }).done(() => {
+        setTimeout(() => orderLoader.classList.add('d-none'), 0);
+        window.location = 'done';
+    });
+});
+
 $(".smooth-anchor").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
@@ -37,16 +51,4 @@ $( function() {
 } );
 
 
-$('.telegram').submit(function (e) {
-    e.preventDefault();
-    const orderLoader = document.getElementById('pageLoaderId');
-    orderLoader.classList.remove('d-none');
-    $.ajax({
-        type: 'POST',
-        url: '/usa_cars/wp-content/themes/usa_cars/api-telegram.php',
-        data: $(this).serialize()
-    }).done(() => {
-        window.location = 'done';
-        setTimeout(() => orderLoader.classList.add('d-none'), 0);
-    });
-});
+

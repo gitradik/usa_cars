@@ -12,6 +12,7 @@
   outline: none;
   position: absolute;
   z-index: 3;
+  padding: 20px;
   bottom: 10px;
   left: 50%;
   animation: move 1s infinite alternate;
@@ -19,7 +20,7 @@
 }
 .first-scroll .btn-down img {
   height: auto;
-  width: 50px;
+  width: 40px;
 }
 @keyframes move {
   0% {
@@ -50,7 +51,7 @@
 .first-scroll .t {
   margin-bottom: 60px;
   max-width: 900px;
-  background-color: rgba(41, 41, 41, 0.95);
+  background-color: rgba(41, 41, 41, 0.5);
   padding: 30px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   position: relative;
@@ -133,6 +134,19 @@
     margin-right: 30px;
   }
 }
+@media only screen and (max-width: 1199px) {
+  .first-scroll .btn-down img {
+    max-width: 30px;
+  }
+  .first-scroll .fs-order h4 {
+    font-size: 1.7rem !important;
+    margin-right: 5px;
+  }
+  .first-scroll .fs-order button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
 @media only screen and (max-width: 991px) {
   .first-scroll .btn-down {
     z-index: 55;
@@ -141,14 +155,33 @@
     width: 100%;
     max-width: 30px;
   }
+
+  .t h1 {
+    font-size: 30px;
+  }
 }
 @media only screen and (max-width: 767px) {
+  .first-scroll .t {
+    margin-top: 70px;
+    padding: 15px;
+  }
   .first-scroll .fs-order {
     flex-direction: column;
     padding-bottom: 120px;
   }
   .first-scroll .fs-order h4 {
     font-size: 24px;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .first-scroll .t h1 {
+    font-size: 24px !important;
+  }
+  .first-scroll .t h2 {
+    font-size: 21px !important;
+  }
+  .first-scroll .fs-order h4 {
+    font-size: 20px !important;
   }
 }
 
