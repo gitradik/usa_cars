@@ -9,8 +9,8 @@ $('.telegram').submit(function (e) {
         url: '/usa_cars/wp-content/themes/usa_cars/api-telegram.php',
         data: $(this).serialize()
     }).done(() => {
-        setTimeout(() => orderLoader.classList.add('d-none'), 0);
         window.location = 'done';
+        setTimeout(() => orderLoader.classList.add('d-none'), 0);
     });
 });
 
@@ -49,6 +49,38 @@ $( function() {
     $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
         " - $" + $( "#slider-range" ).slider( "values", 1 ) );
 } );
+
+$(".open-form-logo-slider_").slick({
+    dots: true,
+    infinite: true,
+    arrows: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    adaptiveHeight: false,
+    prevArrow: '<button class="arrow-slider prev-arrow"><i class="fas fa-chevron-left"></i></button>',
+    nextArrow: '<button class="arrow-slider next-arrow"><i class="fas fa-chevron-right"></i></button>',
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                arrows: false,
+                adaptiveHeight: false,
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                adaptiveHeight: false,
+            }
+        }
+    ],
+});
 
 
 

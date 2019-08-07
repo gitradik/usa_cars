@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="t">
+                <div class="t" >
                     <h2>Сравните стоимость автомобилей в Украине и США</h2>
                     <h3>Цены на популярные модели, которые мы уже доставили нашим клиентам</h3>
                 </div>
@@ -13,7 +13,7 @@
                 foreach ($products as $prod):
             ?>
                 <div class="col-md-12 pt-5 d-flex justify-content-center align-items-center">
-                    <div class="comp-prod">
+                    <div class="comp-prod" >
                         <div class="comp-prod-img"
                             style="background-image: url('<?php echo $prod->image; ?>')"
                         >
@@ -47,11 +47,11 @@
                        )"
                             >Заказать подбор авто</button>
                         </div>
-                        <div class="comp-prod-review">
-                            <p><?php echo $prod->review->name; ?></p>
-                            <p><?php echo $prod->review->content; ?></p>
-                            <p><?php echo $prod->review->date; ?></p>
-                        </div>
+                        <!--<div class="comp-prod-review">
+                            <p><?php /*echo $prod->review->name; */?></p>
+                            <p><?php /*echo $prod->review->content; */?></p>
+                            <p><?php /*echo $prod->review->date; */?></p>
+                        </div>-->
                     </div>
                 </div>
             <?php endforeach; ?>

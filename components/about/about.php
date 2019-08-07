@@ -1,4 +1,4 @@
-<div id="aboutId" class="about" style="background-color: #f2f2f2">
+<div id="aboutId" class="about" style="background-color: #6795FF">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="about-slider popup-gallery">
+                <div class="about-slider popup-gallery" >
                     <div>
                         <a href="<?php echo get_template_directory_uri(); ?>/images/about/full_2asCPAQj.jpg"
                            title=""
@@ -44,7 +44,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 pt-3">
-                <div class="about-logo-slider">
+                <div class="about-logo-slider" >
                     <div>
                         <a href="https://www.manheim.com"
                            target="_blank"

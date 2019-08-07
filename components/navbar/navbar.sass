@@ -4,6 +4,7 @@
   position: fixed
   width: 100%
   z-index: 999
+  background-color: white
 
   .navbar-brand
     font-size: 20px
@@ -17,7 +18,7 @@
 
     img
       height: auto
-      max-width: 80px
+      max-width: 180px
 
   .navbar-nav
 
@@ -31,12 +32,12 @@
         cursor: pointer
         margin-right: 8px
         position: relative
-        font-size: 16px
+        font-size: 18px
         font-weight: 900
         padding-left: 0
         padding-right: 0
         transition: .2s
-        color: black
+        color: #6795FF
 
         &:before
           position: absolute
@@ -60,7 +61,7 @@
 
       .nav-link
         transition: .2s
-        color: $orange
+        color: black
 
         &:before
           position: absolute
@@ -68,7 +69,7 @@
           left: 0
           right: 0
           height: 1px
-          background-color: $orange
+          background-color: white
           transition: .2s
           bottom: 2px
 
@@ -82,15 +83,15 @@
         border-radius: 4px
         border: 1px solid $orange
         transition: .2s
-        background-color: $orange
-        color: white
+        background-color: white
+        color: #6795FF
 
         &:before
           display: none
 
         &:hover
           transition: .2s
-          color: $orange
-          background-color: white
+          color: white
+          background-color: rgba(17, 62, 166, 0.78)
 
 @import "navbar-media"

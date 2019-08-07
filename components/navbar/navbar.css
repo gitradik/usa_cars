@@ -2,6 +2,7 @@
   position: fixed;
   width: 100%;
   z-index: 999;
+  background-color: white;
 }
 .navbar .navbar-brand {
   font-size: 20px;
@@ -9,13 +10,13 @@
   font-weight: 700;
 }
 .navbar .navbar-brand span {
-  color: #292929;
+  color: #113EA6;
   font-weight: 900;
   font-size: 20px;
 }
 .navbar .navbar-brand img {
   height: auto;
-  max-width: 80px;
+  max-width: 180px;
 }
 .navbar .navbar-nav .nav-item {
   padding: 8px 0;
@@ -27,12 +28,12 @@
   cursor: pointer;
   margin-right: 8px;
   position: relative;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 900;
   padding-left: 0;
   padding-right: 0;
   transition: 0.2s;
-  color: black;
+  color: #6795FF;
 }
 .navbar .navbar-nav .nav-item .nav-link:before {
   position: absolute;
@@ -40,13 +41,13 @@
   left: 0;
   right: 0;
   height: 1px;
-  background-color: #292929;
+  background-color: #113EA6;
   transition: 0.2s;
   bottom: -100%;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
   transition: 0.2s;
-  color: #292929;
+  color: #113EA6;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover:before {
   transition: 0.2s;
@@ -54,7 +55,7 @@
 }
 .navbar .navbar-nav .active .nav-link {
   transition: 0.2s;
-  color: #292929;
+  color: black;
 }
 .navbar .navbar-nav .active .nav-link:before {
   position: absolute;
@@ -62,7 +63,7 @@
   left: 0;
   right: 0;
   height: 1px;
-  background-color: #292929;
+  background-color: white;
   transition: 0.2s;
   bottom: 2px;
 }
@@ -74,18 +75,18 @@
   padding: 6px 15px;
   font-weight: 900;
   border-radius: 4px;
-  border: 1px solid #292929;
+  border: 1px solid #113EA6;
   transition: 0.2s;
-  background-color: #292929;
-  color: white;
+  background-color: white;
+  color: #6795FF;
 }
 .navbar .navbar-nav .nav-item-order .nav-link:before {
   display: none;
 }
 .navbar .navbar-nav .nav-item-order .nav-link:hover {
   transition: 0.2s;
-  color: #292929;
-  background-color: white;
+  color: white;
+  background-color: rgba(17, 62, 166, 0.78);
 }
 
 @media only screen and (min-width: 1200px) {

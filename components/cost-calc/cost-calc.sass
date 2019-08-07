@@ -10,7 +10,7 @@
   position: relative
 
   .bg
-    background: linear-gradient(to top, rgba(0,0,0,.7), rgba(255,255,255,.5))
+    background: linear-gradient(to top, rgba(0,0,0,.5), rgba(255,255,255,.7))
 
   .row
     background-color: rgba(0,0,0,.4)
@@ -32,6 +32,7 @@
       width: 100%
       max-width: 400px
       height: 25px
+      background-color: black
 
       .ui-state-active
         background: $orange
@@ -39,7 +40,7 @@
         border: 1px solid $orange
 
       .ui-slider-range
-        background-color: rgba(255, 161, 0, 0.49)
+        background-color: rgba(17, 76, 217, 0.6)
 
       .ui-slider-handle
         cursor: pointer
@@ -47,13 +48,15 @@
         width: 25px
         bottom: -33px
         margin-bottom: -4px
-        background-color: #ffa100
+        background-color: $orange
         border: 2px solid white
         box-shadow: 0 0 10px 0 rgba(0,0,0,.2)
         top: 0
 
     input
+      background-color: black
       display: block
+      color: white
       text-align: center
       outline: none
       max-width: 400px
@@ -68,6 +71,7 @@
       &::placeholder
         font-size: 18px
         font-weight: 500
+        color: white
 
       &:focus
         transition: .2s
@@ -83,7 +87,7 @@
       font-size: 18px
       font-weight: 700
       border-radius: 2px
-      border: 1px solid white
+      border: 1px solid $orange
       transition: .2s
       color: white
       background-color: $orange
@@ -101,6 +105,8 @@
 
       input
         max-width: 100px
+        background-color: black
+        color: white
 
       p
         font-size: 18px
@@ -144,8 +150,8 @@
     .dropdown-toggle
       border-radius: 0
       border: 1px solid rgba(0,0,0,.2)
-      background-color: white
-      color: rgba(0,0,0,.75)
+      background-color: black
+      color: white
       font-weight: 700
       padding: 12px 0
       min-width: 120px

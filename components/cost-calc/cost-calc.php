@@ -3,7 +3,7 @@
 >
     <div class="bg"></div>
     <div style="z-index: 52; position: relative" class="container">
-        <div class="row">
+        <div class="row" >
             <div class="col-lg-6 d-flex justify-content-center align-items-center">
                 <div class="cost-calc-text">
                     <div class="t">
@@ -22,7 +22,7 @@
             </div>
             <div class="col-lg-6 py-3 d-flex justify-content-center align-items-center cost-col">
                 <!--background-image: url('<?php /* echo get_template_directory_uri();*/ ?>/images/savings-2789153_1280.jpg');-->
-                <form class="telegram" type="POST"> <!--TODO drop downs menu php with js-->
+                <form class="telegram"> <!--TODO drop downs menu php with js-->
 
                     <input type="hidden" name="location" value="Второй скролл => Вы в поиске хорошего автомобиля по выгодной цене?">
                     <input id="markInpHidId" type="hidden" name="mark_auto">
@@ -32,7 +32,7 @@
                         <p>Бюджет</p>
                         <p>
 
-                            <input name="budget" type="text" id="amount" readonly style="border:0; color: #292929; font-weight:bold; max-width: 400px; outline: none;">
+                            <input name="budget" type="text" id="amount" readonly style="border:0; color: white; font-weight:bold; max-width: 400px; outline: none;">
                         </p>
 
                         <div id="slider-range"></div>
@@ -83,3 +83,5 @@
         </div>
     </div>
 </div>
+
+

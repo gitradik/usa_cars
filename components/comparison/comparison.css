@@ -37,7 +37,7 @@
   font-weight: 900;
   color: white;
   padding: 20px;
-  border: 1px solid #292929;
+  border: 1px solid #113EA6;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   min-width: 200px;
 }
@@ -58,15 +58,15 @@
   padding: 5px 10px;
   margin: 0 auto;
   margin-left: 15px;
-  border: 1px solid #292929;
+  border: 1px solid #113EA6;
   transition: 0.2s;
-  background-color: #292929;
+  background-color: #113EA6;
   color: white;
 }
 .comparison .comp-prod .comp-prod-specifications button:hover {
   transition: 0.2s;
   background-color: white;
-  color: #292929;
+  color: #113EA6;
 }
 .comparison .comp-prod .comp-prod-specifications .comp-prod-name {
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -87,7 +87,7 @@
 }
 .comparison .comp-prod .comp-prod-specifications .comp-prod-name span:last-child {
   font-weight: 900;
-  background-color: #292929;
+  background-color: #113EA6;
   padding: 5px;
   color: white;
 }
@@ -127,13 +127,13 @@
   font-weight: 500;
 }
 .comparison .comp-prod .comp-prod-review p:first-child {
-  border: 1px solid #292929;
+  border: 1px solid #113EA6;
   padding: 5px;
   font-size: 20px;
   font-weight: 700;
 }
 .comparison .comp-prod .comp-prod-review p:last-child {
-  color: #292929;
+  color: #113EA6;
   font-weight: 900;
   font-size: 18px;
   margin-bottom: 0;

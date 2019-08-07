@@ -5,7 +5,7 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-xl-5 d-flex align-items-center justify-content-center">
-                <div class="t">
+                <div class="t" >
                     <h2>Не можете определится с выбором автомобиля?</h2>
                     <p>На аукционах США можно купить популярные и полюбившиеся в нашей стране автомобили американского производства, таких марок как Ford, Lincoln, Chrysler, Dodge, Jeep, Chevrolet, Buick, Cadillac, автомобили популярных немецких марок Merсedes-Benz, Audi, Volkswagen, BMW, автомобили японских концернов изготовленных для американского рынка таких как Toyota, Lexus, Nissan, Infiniti, Mazda, Honda, Acura, Mitsubishi</p>
                     <div class="open-form-logo-slider">
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-xl-5 d-flex align-items-center justify-content-center">
-                <form class="telegram">
+                <form class="telegram" >
                     <div class="t">
                         <h4><span>Заполните форму ниже  ПРЯМО СЕЙЧАС</span><br>
                             И мы поможем подобрать<span> Вам авто</span> в течении<span> 15 минут</span></h4>

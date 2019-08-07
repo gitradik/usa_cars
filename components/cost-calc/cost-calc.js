@@ -28,6 +28,8 @@ const yearInpHidId = document.getElementById('yearInpHidId');
 
 function setDropDowns() {
     dropdowns[idexes.MARKS].innerHTML = '';
+    dropdowns[idexes.MODELS].innerText = 'Выберите марку';
+    dropdowns[idexes.YEARS].innerText = 'Выберите модель';
 
     const array = arrayCostCalc[idexes.MARKS];
     for (let j = 0; j < array.length; j++) {
@@ -55,6 +57,7 @@ function setModels(index) {
     dropdowns[idexes.MODELS].innerHTML = '';
     dropdowns[idexes.YEARS].innerHTML = '';
     const array = arrayCostCalc[idexes.MODELS][index];
+    dropdowns[idexes.YEARS].innerText = 'Выберите модель';
 
     for (let i = 0; i < array.length; i++) {
 
@@ -68,6 +71,7 @@ function setModels(index) {
             dropdownBtns[idexes.YEARS].innerText = 'Выбрать';
             dropdownBtns[idexes.MODELS].innerText = array[i];
             modelInpHidId.value = array[i];
+            setModels(markIndex);
             setYears(markIndex, index);
         }
 
@@ -93,7 +97,8 @@ function setYears(markIndex, index) {
 
             dropdownBtns[idexes.YEARS].innerText = array[i];
             yearInpHidId.value = array[i];
-            setModels(index);
+            /*  //setModels(markIndex);
+              setYears(markIndex, index);*/
         }
 
         button.onclick = () => onClickBtn(i);

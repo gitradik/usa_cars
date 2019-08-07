@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-xl-5 d-flex align-items-center justify-content-center">
-                <form class="telegram">
+                <form class="telegram"  data-aos-duration="900">
                     <div class="t">
                         <h2>Кредит на авто из США</h2>
                         <div class="t ops-t ops-t-m">
@@ -29,7 +29,7 @@
             </div>
         </div>
     </div>
-    <div class="t ops-t">
+    <div class="t ops-t"  data-aos-duration="1200">
         <h3>Ставка <span>1,7%</span></h3>
     </div>
 </div>

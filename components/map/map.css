@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  overflow: hidden;
 }
 .map .t {
   text-align: center;
@@ -46,7 +47,7 @@
 }
 .map .map-map .sietl {
   top: 1%;
-  left: 1.5%;
+  left: 3.5%;
 }
 .map .map-map .los-angeles {
   top: 50%;
@@ -54,15 +55,15 @@
 }
 .map .map-map .chicago {
   top: 25%;
-  left: 58%;
+  left: 63%;
 }
 .map .map-map .indiapolice {
   top: 30%;
-  left: 60%;
+  left: 66%;
 }
 .map .map-map .new-jercie {
   top: 27%;
-  right: 4%;
+  right: 7%;
 }
 .map .map-map .savana {
   top: 66%;

@@ -89,7 +89,7 @@
 }
 .open-form-second form input:focus {
   transition: 0.2s;
-  border-color: #292929;
+  border-color: #113EA6;
 }
 .open-form-second form input[type=submit] {
   outline: none;
@@ -100,14 +100,14 @@
   font-size: 18px;
   font-weight: 700;
   border-radius: 2px;
-  border: 1px solid #292929;
+  border: 1px solid #113EA6;
   transition: 0.2s;
   color: white;
-  background-color: #292929;
+  background-color: #113EA6;
 }
 .open-form-second form input[type=submit]:hover {
   transition: 0.2s;
-  color: #292929;
+  color: #113EA6;
   background-color: transparent;
 }
 

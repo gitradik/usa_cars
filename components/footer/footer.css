@@ -1,6 +1,7 @@
 footer {
   padding: 30px 0;
-  background-color: #292929;
+  background-color: black;
+  overflow: hidden;
 }
 footer .mapouter {
   min-width: 100%;
@@ -79,7 +80,7 @@ footer form input::placeholder {
 }
 footer form input:focus {
   transition: 0.2s;
-  border-color: #292929;
+  border-color: #113EA6;
 }
 footer form input[type=submit] {
   outline: none;
@@ -90,15 +91,19 @@ footer form input[type=submit] {
   font-size: 18px;
   font-weight: 700;
   border-radius: 2px;
-  border: 1px solid white;
+  border: 1px solid #113EA6;
   transition: 0.2s;
   color: white;
-  background-color: #292929;
+  background-color: #113EA6;
 }
 footer form input[type=submit]:hover {
   transition: 0.2s;
-  color: #292929;
+  color: #113EA6;
   background-color: white;
+}
+
+p {
+  font-family: "Oswald", sans-serif !important;
 }
 
 /*# sourceMappingURL=footer.css.map */

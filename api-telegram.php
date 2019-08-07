@@ -9,18 +9,18 @@ $mark_auto = isset($_POST['mark_auto']) ? $_POST['mark_auto'] : '';
 $model_auto = isset($_POST['model_auto']) ? $_POST['model_auto'] : '';
 $year_auto = isset($_POST['year_auto']) ? $_POST['year_auto'] : '';
 
-
-$chat_id = '-358257002';
+//mail("rminzp17@gmail.com", "Новая заявка с сайта USA CARS", " Имя: ".$name."\n Телефон: ".$phone."\n Бюджет: ".$budget."\nМарка: ".$mark_auto."\nМодель: ".$model_auto ."\nГод: ".$year_auto ."\nЦель: ".$location, "\r\n");
+$chat_id = '-371639691';
 $token = '708250356:AAF6mUDiVUT2vEJrV91_dt4bCP9A70i3Jq4';
 
 $arr = array(
     'Имя:' => $name,
     'Телефон:' => $phone,
-    'Цель: ' => $location,
     'Бюджет: ' => $budget,
     'Марка: ' => $mark_auto,
     'Модель: ' => $model_auto,
     'Год: ' => $year_auto,
+    'Цель: ' => $location,
 );
 foreach ($arr as $key => $value) {
     $txt .= "<b>" . $key . "</b> " . $value . "%0A";
