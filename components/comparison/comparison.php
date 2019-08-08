@@ -17,9 +17,7 @@
                         <div class="comp-prod-img"
                             style="background-image: url('<?php echo $prod->image; ?>')"
                         >
-                            <!--<div class="comp-prod-title">
-                                <p><?php /*echo $prod->title; */?></p>
-                            </div>-->
+                            <img class="img-fluid d-sm-none" src="<?php echo $prod->image; ?>">
                         </div>
                         <div class="comp-prod-specifications">
                             <div class="comp-prod-name">
