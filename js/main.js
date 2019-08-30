@@ -6,7 +6,7 @@ $('.telegram').submit(function (e) {
     orderLoader.classList.remove('d-none');
     $.ajax({
         type: 'POST',
-        url: '/usa_cars/wp-content/themes/usa_cars/api-telegram.php',
+        url: '/wp-content/themes/usa_cars/api-telegram.php',
         data: $(this).serialize()
     }).done(() => {
         window.location = 'done';

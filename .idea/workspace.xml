@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9992eeed-c028-4089-a357-31e95ff98f36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/about/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/clients-have/clients-have.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/clients-have/clients-have.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/comparison/comparison.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/comparison/comparison.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/comparison/comparison.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/comparison/comparison.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/comparison/comparison.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/comparison/comparison.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cost-calc/cost-calc.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/cost-calc/cost-calc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cost-calc/cost-calc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/cost-calc/cost-calc.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cost-calc/cost-calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/cost-calc/cost-calc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cost-calc/cost-calc.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/cost-calc/cost-calc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cost-calc/cost-calc.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/cost-calc/cost-calc.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/first-scroll/first-scroll.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/map/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/map/map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/open-form/open-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/open-form/open-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/partners/partners.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/partners/partners.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/reviews/reviews-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/reviews/reviews-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/reviews/reviews.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/reviews/reviews.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/reviews/reviews.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/reviews/reviews.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/reviews/reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/reviews/reviews.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/reviews/reviews.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/reviews/reviews.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/work/work.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/work/work.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,6 +91,8 @@
       <workItem from="1566447975389" duration="4844000" />
       <workItem from="1566462293779" duration="608000" />
       <workItem from="1567150720617" duration="1241000" />
+      <workItem from="1567154001674" duration="87000" />
+      <workItem from="1567156593772" duration="555000" />
     </task>
     <servers />
   </component>
