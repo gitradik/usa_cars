@@ -10,11 +10,11 @@
                 </div>
             </div>
             <?php
-                foreach ($products as $prod):
+                foreach ($products as $key => $prod):
             ?>
                 <div class="col-md-12 pt-5 d-flex justify-content-center align-items-center">
                     <div class="comp-prod" >
-                        <div class="comp-prod-img"
+                        <div class="comp-prod-img <?php echo $key % 2 == 0 ? 'order-xl-1' : ''; ?>"
                             style="background-image: url('<?php echo $prod->image; ?>')"
                         >
                             <img class="img-fluid d-sm-none" src="<?php echo $prod->image; ?>">
@@ -38,13 +38,15 @@
                                     data-toggle="modal"
                                     data-target="#contactFormModal"
                                     onclick="onClickContactFormModal(
-                           'Заполните данные ниже и получите просчет стоимости и доставки БЕСПЛАТНО',
-                           'contactFormModalTitle',
-                           'Продукт => <?php echo $prod->title; ?>',
-                           'contactFormModalLocationId'
-                       )"
-                            >Заказать подбор авто</button>
+                                           'Заполните данные ниже и получите просчет стоимости и доставки БЕСПЛАТНО',
+                                           'contactFormModalTitle',
+                                           'Продукт => <?php echo $prod->title; ?>',
+                                           'contactFormModalLocationId'
+                                       )">
+                                Заказать подбор авто
+                            </button>
                         </div>
+
                         <!--<div class="comp-prod-review">
                             <p><?php /*echo $prod->review->name; */?></p>
                             <p><?php /*echo $prod->review->content; */?></p>

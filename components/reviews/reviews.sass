@@ -35,7 +35,8 @@
         outline: none
 
         .photo-gallery-slider-item
-          min-height: 455px
+          overflow: hidden
+          position: relative
           margin: 5px
           border-radius: 2px
           box-shadow: 0 0 10px 0 rgba(0,0,0,.05)
@@ -43,6 +44,9 @@
           border: 1px solid rgba(255,255,255,.5)
 
           .rev-img
+            display: flex
+            align-items: center
+            justify-content: center
             margin: 20px auto
             min-height: 120px
             min-width: 120px
@@ -53,6 +57,8 @@
             border-radius: 100%
             border: 2px solid white
             box-shadow: 0 0 10px 0 rgba(0,0,0,.15)
+            font-size: 29px
+            font-weight: 700
 
           img
             height: auto
@@ -60,5 +66,43 @@
             border-radius: 100%
             border: 2px solid white
             box-shadow: 0 0 10px 0 rgba(0,0,0,.15)
+
+          .item-name
+
+            &:hover
+
+              .text
+                transition: .4s
+                visibility: visible
+                opacity: 1
+
+                p
+                  display: inline-block
+                  transition: .4s
+
+
+            .name
+              cursor: pointer
+              display: flex
+              align-items: center
+              justify-content: space-between
+
+            .text
+              position: absolute
+              left: 0
+              width: 100%
+              bottom: 0
+              overflow: hidden
+              box-shadow: 0 0 10px 0 rgba(0,0,0,.05)
+              padding: 10px
+              border: 1px solid rgba(255,255,255,.5)
+              background-color: #6795FF
+              transition: .4s
+              visibility: hidden
+              opacity: 0
+
+              p
+
+
 
 @import "reviews-media"

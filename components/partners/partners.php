@@ -24,11 +24,11 @@
                         </div>
                     </div>
 
-                    <div>
+                    <!--<div>
                         <div class="photo-gallery-slider-item logo-item">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/partners/atlogo.png">
+                            <img src="<?php /*echo get_template_directory_uri(); */?>/images/partners/atlogo.png">
                         </div>
-                    </div>
+                    </div>-->
                     <div>
                         <div class="photo-gallery-slider-item logo-item">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/partners/profile picture.png">

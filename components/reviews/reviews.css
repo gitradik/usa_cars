@@ -27,7 +27,8 @@
   outline: none;
 }
 .certificate .open-form-logo-slider_ .slick-list .slick-slide .photo-gallery-slider-item {
-  min-height: 455px;
+  overflow: hidden;
+  position: relative;
   margin: 5px;
   border-radius: 2px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
@@ -35,6 +36,9 @@
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 .certificate .open-form-logo-slider_ .slick-list .slick-slide .photo-gallery-slider-item .rev-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 20px auto;
   min-height: 120px;
   min-width: 120px;
@@ -45,6 +49,8 @@
   border-radius: 100%;
   border: 2px solid white;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  font-size: 29px;
+  font-weight: 700;
 }
 .certificate .open-form-logo-slider_ .slick-list .slick-slide .photo-gallery-slider-item img {
   height: auto;
@@ -53,16 +59,34 @@
   border: 2px solid white;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
 }
-
-@media only screen and (max-width: 1199px) {
-  .certificate .open-form-logo-slider_ .slick-list .slick-slide .photo-gallery-slider-item {
-    min-height: 415px;
-  }
+.certificate .open-form-logo-slider_ .slick-list .slick-slide .photo-gallery-slider-item .item-name:hover .text {
+  transition: 0.4s;
+  visibility: visible;
+  opacity: 1;
 }
-@media only screen and (max-width: 991px) {
-  .certificate .open-form-logo-slider_ .slick-list .slick-slide .photo-gallery-slider-item {
-    min-height: 100%;
-  }
+.certificate .open-form-logo-slider_ .slick-list .slick-slide .photo-gallery-slider-item .item-name:hover .text p {
+  display: inline-block;
+  transition: 0.4s;
+}
+.certificate .open-form-logo-slider_ .slick-list .slick-slide .photo-gallery-slider-item .item-name .name {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.certificate .open-form-logo-slider_ .slick-list .slick-slide .photo-gallery-slider-item .item-name .text {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  overflow: hidden;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #6795FF;
+  transition: 0.4s;
+  visibility: hidden;
+  opacity: 0;
 }
 
 /*# sourceMappingURL=reviews.css.map */

@@ -32,7 +32,7 @@
                         <p>Бюджет</p>
                         <p>
 
-                            <input name="budget" type="text" id="amount" readonly style="border:0; color: white; font-weight:bold; max-width: 400px; outline: none;">
+                            <input name="budget" type="text" id="amount" readonly style="border:0; color: black; background-color: white; font-weight:bold; max-width: 400px; outline: none;">
                         </p>
 
                         <div id="slider-range"></div>

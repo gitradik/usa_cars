@@ -4,7 +4,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
   position: relative;
 }
 .cost-calc .bg {
@@ -30,7 +29,7 @@
   width: 100%;
   max-width: 400px;
   height: 25px;
-  background-color: black;
+  background-color: white;
 }
 .cost-calc form #slider-range .ui-state-active {
   background: #113EA6;
@@ -52,9 +51,9 @@
   top: 0;
 }
 .cost-calc form input {
-  background-color: black;
+  background-color: white;
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   outline: none;
   max-width: 400px;
@@ -69,7 +68,7 @@
 .cost-calc form input::placeholder {
   font-size: 18px;
   font-weight: 500;
-  color: white;
+  color: black;
 }
 .cost-calc form input:focus {
   transition: 0.2s;
@@ -144,8 +143,8 @@
 .cost-calc .dropdown .dropdown-toggle {
   border-radius: 0;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-weight: 700;
   padding: 12px 0;
   min-width: 120px;

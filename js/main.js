@@ -40,8 +40,8 @@ $( function() {
     $( "#slider-range" ).slider({
         range: true,
         min: 0,
-        max: 8000,
-        values: [ 1000, 6000 ],
+        max: 100000,
+        values: [ 20000, 36000 ],
         slide: function( event, ui ) {
             $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
         }
@@ -55,6 +55,7 @@ $(".open-form-logo-slider_").slick({
     infinite: true,
     arrows: false,
     speed: 500,
+    autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 3,
     adaptiveHeight: false,

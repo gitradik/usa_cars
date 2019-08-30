@@ -11,14 +11,17 @@
                     <div>
                         <div class="photo-gallery-slider-item logo-item">
                             <div class="rev-img"
-                                style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/user.svg');"
-                            >
 
+                            >
+                                #1
                             </div>
-                            <p class="name">Сергей</p>
-                            <div class="text">
-                                <p>
-                                    С помощью компании Invensollogistics, приобрел автомобиль ВMW 640 в Канаде. Оказалась, что с такой комплектацией такая машина одна в Украине. Cпасибо ребятам, помогали на всех этапах. Конечный результат стоит того.                                </p>
+                            <div class="item-name">
+                                <p class="name">Сергей <i class="fas fa-plus"></i></p>
+                                <div class="text">
+                                    <p>
+                                        С помощью компании Invensollogistics, приобрел автомобиль ВMW 640 в Канаде. Оказалась, что с такой комплектацией такая машина одна в Украине. Cпасибо ребятам, помогали на всех этапах. Конечный результат стоит того.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -26,14 +29,16 @@
                     <div>
                         <div class="photo-gallery-slider-item logo-item">
                             <div class="rev-img"
-                                 style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/user.svg');"
-                            >
 
+                            >
+#2
                             </div>
-                            <p class="name">Александра</p>
-                            <div class="text">
-                                <p>
-                                    Выбрала компанию Invensollogistics случайно, но оказалась что очень удачно. Хотела кроссовер бюджетный, не старше 3 лет, экономичный.Ребята подобрали Subaru Crosstrek Hibrid 2016 г., помогли с запчастями, ремонтом. Можно сказать сделали всю работу. Я очень довольна. Получаю удовольствие от этой машины. Спасибо, всем рекомендую.                                </p>
+                            <div class="item-name">
+                                <p class="name">Александра <i class="fas fa-plus"></i></p>
+                                <div class="text">
+                                    <p>
+                                        Выбрала компанию Invensollogistics случайно, но оказалась что очень удачно. Хотела кроссовер бюджетный, не старше 3 лет, экономичный.Ребята подобрали Subaru Crosstrek Hibrid 2016 г., помогли с запчастями, ремонтом. Можно сказать сделали всю работу. Я очень довольна. Получаю удовольствие от этой машины. Спасибо, всем рекомендую.                                </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -41,14 +46,17 @@
                     <div>
                         <div class="photo-gallery-slider-item logo-item">
                             <div class="rev-img"
-                                 style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/user.svg');"
-                            >
 
+                            >
+#3
                             </div>
-                            <p class="name">Игорь</p>
-                            <div class="text">
-                                <p>
-                                    По совету знакомых обратился к ребятам из компании Invensollogistics. До знакомства с ними долго проводил мониторинг компаний на предмет условий покупки BMW i3 на аукционе Manheim.Совместно подобрали мне машину. Был приятно удивлен ихними ценами. Спасибо большое, уже катаюсь на i3. Еще 2 машины в пути.                                </p>
+                            <div class="item-name">
+                                <p class="name">Игорь <i class="fas fa-plus"></i></p>
+                                <div class="text">
+                                    <p>
+                                        По совету знакомых обратился к ребятам из компании Invensollogistics. До знакомства с ними долго проводил мониторинг компаний на предмет условий покупки BMW i3 на аукционе Manheim.Совместно подобрали мне машину. Был приятно удивлен ихними ценами. Спасибо большое, уже катаюсь на i3. Еще 2 машины в пути.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -56,14 +64,17 @@
                     <div>
                         <div class="photo-gallery-slider-item logo-item">
                             <div class="rev-img"
-                                 style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/user.svg');"
-                            >
 
+                            >
+#4
                             </div>
-                            <p class="name">Алексадр</p>
-                            <div class="text">
-                                <p>
-                                    Мы с супругой решили обновить автомобиль и обратились в компанию Invensollogistics. Нам помогли быстро подобрать Mazda 3 Grand Tauring, с небольшими повреждениями, быстро доставили, помогли c таможней, ремонтом, сертификацией и регистрацией. Автомобиль максимальной комплектации, состояние нового автомобиля, очень довольны.                            </div>
+                            <div class="item-name">
+                                <p class="name">Алексадр <i class="fas fa-plus"></i></p>
+                                <div class="text">
+                                    <p>
+                                        Мы с супругой решили обновить автомобиль и обратились в компанию Invensollogistics. Нам помогли быстро подобрать Mazda 3 Grand Tauring, с небольшими повреждениями, быстро доставили, помогли c таможней, ремонтом, сертификацией и регистрацией. Автомобиль максимальной комплектации, состояние нового автомобиля, очень довольны.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
