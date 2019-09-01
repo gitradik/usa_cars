@@ -2,7 +2,7 @@ $(".open-form-logo-slider").slick({
     dots: true,
     infinite: true,
     arrows: false,
-    speed: 4000,
+    speed: 500,
     autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 4,

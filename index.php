@@ -17,6 +17,7 @@
         </div>
 
         <?php require_once get_template_directory() . '/components/contact-form-modal/contact-form-modal.php'; ?>
+        <?php require_once get_template_directory() . '/components/contact-form-modal-mailto/contact-form-modal.php'; ?>
         <?php require_once get_template_directory() . '/components/contact-form-modal-second/contact-form-modal.php'; ?>
         <?php require_once get_template_directory() . '/components/navbar/navbar.php'; ?>
         <?php require_once get_template_directory() . '/components/first-scroll/first-scroll.php'; ?>

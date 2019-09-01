@@ -6,10 +6,24 @@ $('.telegram').submit(function (e) {
     orderLoader.classList.remove('d-none');
     $.ajax({
         type: 'POST',
-        url: '/wp-content/themes/usa_cars/api-telegram.php',
+        url: '/usa_cars/wp-content/themes/usa_cars/api-telegram.php',
         data: $(this).serialize()
     }).done(() => {
         window.location = 'done';
+        setTimeout(() => orderLoader.classList.add('d-none'), 0);
+    });
+});
+
+$('.telegram-mailto').submit(function (e) {
+    e.preventDefault();
+    const orderLoader = document.getElementById('pageLoaderId');
+    orderLoader.classList.remove('d-none');
+    $.ajax({
+        type: 'POST',
+        url: '/usa_cars/wp-content/themes/usa_cars/api-telegram-mailto.php',
+        data: $(this).serialize()
+    }).done(() => {
+        //window.location = 'done';
         setTimeout(() => orderLoader.classList.add('d-none'), 0);
     });
 });

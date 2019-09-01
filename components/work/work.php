@@ -45,12 +45,12 @@
                     <h3>Скачайте подробную инструкцию с подробным описанием всех этапов покупки и доставки авто из США </h3>
                     <button
                             data-toggle="modal"
-                            data-target="#contactFormModalSecond"
+                            data-target="#contactFormModalMailto"
                             onclick="onClickContactFormModal(
                            'Заполните данные ниже и получите подробные этапы покупки авто БЕСПЛАТНО на Вашу почту',
-                           'contactFormModalSecondTitle',
+                           'contactFormModalMailtoTitle',
                            'Как мы работаем => Заказать инструкцию',
-                           'contactFormModalSecondLocationId'
+                           'contactFormModalMailtoLocationId'
                        )"
                     >Заказать инструкцию</button>
                 </div>

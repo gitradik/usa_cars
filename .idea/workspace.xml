@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9992eeed-c028-4089-a357-31e95ff98f36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api-telegram-mailto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/contact-form-modal-mailto/contact-form-modal-media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/contact-form-modal-mailto/contact-form-modal-media.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/contact-form-modal-mailto/contact-form-modal-media.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/contact-form-modal-mailto/contact-form-modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/contact-form-modal-mailto/contact-form-modal.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/contact-form-modal-mailto/contact-form-modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/contact-form-modal-mailto/contact-form-modal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/contact-form-modal-mailto/contact-form-modal.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/open-form/open-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/open-form/open-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/work/work.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/work/work.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -93,6 +105,8 @@
       <workItem from="1567150720617" duration="1241000" />
       <workItem from="1567154001674" duration="87000" />
       <workItem from="1567156593772" duration="555000" />
+      <workItem from="1567158207004" duration="1640000" />
+      <workItem from="1567340077863" duration="1423000" />
     </task>
     <servers />
   </component>
